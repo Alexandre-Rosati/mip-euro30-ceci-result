@@ -1,0 +1,24 @@
+
+Problem: 
+- Name: tmprgz3w34y
+  Lower bound: 22.0
+  Upper bound: 22.0
+  Number of objectives: 1
+  Number of constraints: 31102
+  Number of variables: 123877
+  Number of nonzeros: 704626
+  Sense: maximize
+Solver: 
+- Status: ok
+  User time: 5035.93
+  Termination condition: optimal
+  Termination message: MIP - Integer optimal solution\x3a Objective = 2.2000000000e+01
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 4409
+      Number of created subproblems: 4409
+  Error rc: 0
+  Time: 5036.85121679306
+Solution: 
+- number of solutions: 0
+  number of solutions displayed: 0

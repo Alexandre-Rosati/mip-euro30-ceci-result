@@ -1,0 +1,24 @@
+
+Problem: 
+- Name: tmpxm_xzypw
+  Lower bound: 157.01195200000004
+  Upper bound: 164.47360563
+  Number of objectives: 1
+  Number of constraints: 2388
+  Number of variables: 6825
+  Number of nonzeros: 52201
+  Sense: maximize
+Solver: 
+- Status: ok
+  User time: 659.12
+  Termination condition: optimal
+  Termination message: MIP - Integer optimal, tolerance (0.05/1e-06)\x3a Objective = 1.5701195200e+02
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 186902
+      Number of created subproblems: 186902
+  Error rc: 0
+  Time: 660.0212230682373
+Solution: 
+- number of solutions: 0
+  number of solutions displayed: 0

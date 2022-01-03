@@ -1,0 +1,24 @@
+
+Problem: 
+- Name: tmpg4cwiasp
+  Lower bound: 154.91007600000003
+  Upper bound: 162.080669
+  Number of objectives: 1
+  Number of constraints: 3081
+  Number of variables: 6088
+  Number of nonzeros: 47177
+  Sense: maximize
+Solver: 
+- Status: ok
+  User time: 0.31
+  Termination condition: optimal
+  Termination message: MIP - Integer optimal, tolerance (0.05/1e-06)\x3a Objective = 1.5491007600e+02
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 0
+      Number of created subproblems: 0
+  Error rc: 0
+  Time: 0.3607330322265625
+Solution: 
+- number of solutions: 0
+  number of solutions displayed: 0

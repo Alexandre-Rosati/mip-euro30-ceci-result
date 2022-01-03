@@ -1,0 +1,24 @@
+
+Problem: 
+- Name: tmp0xd9s55i
+  Lower bound: 28.931319
+  Upper bound: 28.931319
+  Number of objectives: 1
+  Number of constraints: 480
+  Number of variables: 597
+  Number of nonzeros: 4626
+  Sense: maximize
+Solver: 
+- Status: ok
+  User time: 0.12
+  Termination condition: optimal
+  Termination message: MIP - Integer optimal solution\x3a Objective = 2.8931319000e+01
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 0
+      Number of created subproblems: 0
+  Error rc: 0
+  Time: 0.13872432708740234
+Solution: 
+- number of solutions: 0
+  number of solutions displayed: 0

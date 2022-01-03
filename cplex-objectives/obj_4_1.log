@@ -1,0 +1,24 @@
+
+Problem: 
+- Name: tmpqf504hzo
+  Lower bound: 0.0
+  Upper bound: 0.0
+  Number of objectives: 1
+  Number of constraints: 167
+  Number of variables: 60
+  Number of nonzeros: 465
+  Sense: minimize
+Solver: 
+- Status: ok
+  User time: 0.21
+  Termination condition: optimal
+  Termination message: MIP - Integer optimal solution\x3a Objective = 0.0000000000e+00
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 0
+      Number of created subproblems: 0
+  Error rc: 0
+  Time: 0.22581744194030762
+Solution: 
+- number of solutions: 0
+  number of solutions displayed: 0

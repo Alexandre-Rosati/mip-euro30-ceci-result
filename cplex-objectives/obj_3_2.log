@@ -1,0 +1,24 @@
+
+Problem: 
+- Name: tmpl6r41jqy
+  Lower bound: 0.0
+  Upper bound: 0.0
+  Number of objectives: 1
+  Number of constraints: 1949
+  Number of variables: 6238
+  Number of nonzeros: 35946
+  Sense: minimize
+Solver: 
+- Status: ok
+  User time: 0.43
+  Termination condition: optimal
+  Termination message: MIP - Integer optimal solution\x3a Objective = 0.0000000000e+00
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 0
+      Number of created subproblems: 0
+  Error rc: 0
+  Time: 0.48298001289367676
+Solution: 
+- number of solutions: 0
+  number of solutions displayed: 0

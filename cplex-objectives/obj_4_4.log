@@ -1,0 +1,20 @@
+
+Problem: 
+- Name: tmp69mjb91q
+  Lower bound: -139.61046549
+  Upper bound: 0.0
+  Number of objectives: 1
+  Number of constraints: 2078
+  Number of variables: 5356
+  Number of nonzeros: 40507
+  Sense: minimize
+Solver: 
+- Status: ok
+  User time: 903.0
+  Termination condition: maxTimeLimit
+  Termination message: MIP - Time limit exceeded, integer feasible\x3a Objective = 0.0000000000e+00
+  Error rc: 0
+  Time: 903.6940903663635
+Solution: 
+- number of solutions: 0
+  number of solutions displayed: 0

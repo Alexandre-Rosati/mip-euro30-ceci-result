@@ -1,0 +1,843 @@
+INFO:root:[2021-12-29 13:40:42.106757] start mip1
+INFO:root:[2021-12-29 13:40:44.027041] solve
+Solver script file=/localscratch/arosati/70372665/tmpv1ty8p5c.cplex.script
+Solver log file: 'obj_1.log'
+Solver solution file: '/localscratch/arosati/70372665/tmpvnh2hs8g.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmp6a9exne4.pyomo.lp',)
+INFO:root:[2021-12-29 14:47:59.894481] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_1.log
+INFO:root:[2021-12-29 14:47:59.897291] export result
+INFO:root:[2021-12-29 14:47:59.897648] master building
+INFO:root:[2021-12-29 14:47:59.898961] model Y
+INFO:root:[2021-12-29 14:47:59.905369] model Q
+INFO:root:[2021-12-29 14:47:59.905941] model X
+INFO:root:[2021-12-29 14:48:00.606424] export complete result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_1.json
+INFO:root:[2021-12-29 14:48:01.818484] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_1_1.json
+INFO:root:[2021-12-29 14:48:01.820023] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_1_2.json
+INFO:root:[2021-12-29 14:48:01.891963] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_1_3.json
+INFO:root:[2021-12-29 14:48:01.919980] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_1_4.json
+INFO:root:[2021-12-29 14:48:01.941153] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_1_5.json
+INFO:root:[2021-12-29 14:48:02.065198] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_1_6.json
+INFO:root:[2021-12-29 14:48:02.077155] stop mip1
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_1_5.json
+------- |  room 37  |  room 38  |  room 39  |  room 40  |  room 41  |  room 42  |  room 43  |  room 44  |  room 45  |  room 46  |  room 47  |  room 48  |  room 49  |  room 50  |  room 51  |
+ M - A  | A  1 S 65 | A 20 S 50 | A 27 S 25 | A 26 S 44 | A  8 S 83 | A  6 S 26 | A  4 S107 | A  6 S 10 | A  1 S 35 | A  8 S102 | A  4 S 87 | A  6 S 11 | A 10 S 97 | A 27 S 24 | A  4 S106 |
+ M - B  | A  1 S 65 | A  6 S123 | A  1 S 35 | A  6 S 26 | A 10 S 97 | A  8 S 83 | A 10 S 90 | A 12 S 98 | A 26 S 43 | A  6 S 11 | A  4 S 99 | A  6 S 64 | A  8 S124 | A 10 S  5 | A  4 S 87 |
+ M - C  | A  1 S 35 | A 26 S 43 | A  6 S 26 | A  8 S 83 | A  6 S123 | A 27 S 24 | A 26 S 45 | A 10 S 97 | A 10 S 89 | A  6 S 11 | A 20 S  3 | A  6 S 64 | A 14 S 47 | A  4 S108 | A 10 S 93 |
+ M - D  | A  6 S 26 | A 20 S 50 | A  1 S117 | A  8 S102 | A  6 S123 | A  8 S 83 | A 10 S 92 | A 27 S 24 | A  4 S106 | A  4 S 86 | A 10 S 94 | A  1 S 35 | A  4 S 87 | A  1 S 40 | A  1 S 48 |
+ M - E  | A  1 S117 | A 20 S 67 | A  8 S102 | A 10 S 94 | A 27 S 25 | A  6 S 11 | A 20 S 50 | A 20 S 72 | A  4 S 87 | A  6 S123 | A  1 S 65 | A  1 S 40 | A  1 S 35 | A 10 S 97 | A 27 S 24 |
+ T - A  | A  6 S123 | A 20 S 66 | A  4 S106 | A 26 S 44 | A 12 S 98 | A 27 S 25 | A  6 S 10 | A  4 S 99 | A  1 S 27 | A  8 S102 | A 10 S 94 | A 10 S 91 |   empty   | A  4 S109 | A 26 S 43 |
+ T - B  | A 20 S 67 | A  6 S 26 | A  6 S123 | A  8 S102 | A  1 S 40 | A  8 S 82 | A  6 S 11 | A 20 S 50 | A  1 S 35 | A 12 S  9 | A  6 S 64 | A 26 S 43 | A  1 S 27 | A  6 S 10 | A  4 S 99 |
+ T - C  | A  1 S 40 | A  8 S102 | A  1 S117 | A  4 S106 | A  1 S 35 | A  6 S 11 | A 27 S 24 | A  4 S 86 | A  4 S107 | A  6 S123 | A 20 S 50 | A  1 S 36 | A 10 S 90 | A 10 S 92 | A  4 S 87 |
+ T - D  | A 27 S 25 | A  6 S123 | A  8 S102 | A  8 S 83 | A  6 S 11 | A  1 S 35 | A 26 S 45 | A 12 S 42 | A 12 S 46 | A 20 S 78 | A  1 S 48 | A  4 S 86 | A 10 S 94 | A  4 S 87 | A 20 S 50 |
+ T - E  | A  6 S 26 | A  1 S 35 | A  6 S123 | A  8 S102 | A  4 S106 | A  6 S 10 | A  6 S 11 | A  4 S108 | A  6 S 64 | A  8 S 82 | A 12 S 42 | A  4 S  6 | A  4 S107 | A 10 S 94 | A  4 S 87 |
+ W - A  | A  4 S106 | A  8 S102 | A 27 S 25 | A 14 S 47 | A  8 S 82 | A  6 S 11 | A 10 S 90 | A 12 S 42 | A 12 S 46 | A  8 S 83 | A  1 S 65 | A  6 S 64 | A  4 S107 | A 20 S 50 |   empty   |
+ W - B  | A  6 S123 | A 20 S 67 | A  8 S 83 | A  8 S 82 | A  6 S 11 | A 26 S 44 | A 10 S 93 | A 10 S 89 | A  4 S106 | A  8 S102 | A 20 S 50 | A  1 S 27 | A  4 S 99 | A 26 S 43 | A 10 S 94 |
+ W - C  | A  6 S 26 | A 10 S 93 | A  6 S123 | A 27 S 25 | A  4 S 99 | A  8 S102 |   empty   | A 10 S 94 | A  4 S 87 | A 10 S 97 | A  6 S 11 | A  1 S 27 | A 10 S 89 | A 14 S 47 | A  1 S 40 |
+ W - D  | A  6 S 26 | A  8 S 83 | A  1 S 27 | A  6 S123 | A  8 S 82 | A 27 S 25 | A 20 S 66 | A 26 S 43 | A 27 S 24 | A  8 S102 | A  4 S106 | A  8 S124 | A  4 S108 | A  6 S 11 | A  4 S107 |
+ W - E  | A 20 S 67 | A 26 S 44 | A  6 S 26 | A  1 S 35 | A 27 S 25 | A  1 S117 | A  4 S106 | A  8 S 85 | A 12 S 46 | A  8 S 83 | A 10 S 89 | A  8 S103 | A  1 S 48 | A 27 S 24 | A 10 S 94 |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_1_1.json
+------- |  room  1  |
+ M - A  |   empty   |
+ M - B  | A 17 S 60 |
+ M - C  | A 17 S 60 |
+ M - D  | A 17 S 61 |
+ M - E  |   empty   |
+ T - A  | A 17 S 61 |
+ T - B  |   empty   |
+ T - C  |   empty   |
+ T - D  |   empty   |
+ T - E  | A 17 S 84 |
+ W - A  | A 17 S 60 |
+ W - B  | A 17 S 61 |
+ W - C  | A 17 S 60 |
+ W - D  |   empty   |
+ W - E  |   empty   |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_1_4.json
+------- |  room 25  |  room 26  |  room 27  |  room 28  |  room 29  |  room 30  |  room 31  |  room 32  |  room 33  |  room 34  |  room 35  |  room 36  |
+ M - A  | A 24 S 14 |   empty   |   empty   | A 24 S 18 |   empty   | A 24 S 17 |   empty   |   empty   |   empty   | A 24 S 16 |   empty   |   empty   |
+ M - B  | A 24 S 12 |   empty   | A 24 S 18 | A 24 S 20 |   empty   |   empty   | A 24 S 14 | A 24 S 19 |   empty   |   empty   |   empty   |   empty   |
+ M - C  | A 24 S 18 |   empty   |   empty   |   empty   |   empty   |   empty   | A 24 S125 |   empty   |   empty   |   empty   |   empty   | A 24 S 14 |
+ M - D  | A 24 S 20 |   empty   |   empty   |   empty   |   empty   | A 24 S 18 | A 24 S 15 | A 24 S 13 |   empty   | A 24 S 17 | A 24 S 16 |   empty   |
+ M - E  | A 24 S 17 |   empty   |   empty   | A 24 S 14 |   empty   |   empty   |   empty   |   empty   | A 24 S 20 |   empty   |   empty   |   empty   |
+ T - A  |   empty   | A 24 S 13 | A 24 S 20 | A 24 S 17 |   empty   |   empty   | A 24 S125 |   empty   |   empty   | A 24 S 19 |   empty   | A 24 S 18 |
+ T - B  |   empty   | A 24 S 12 |   empty   | A 24 S 13 |   empty   |   empty   | A 24 S 17 |   empty   | A 24 S 14 |   empty   | A 24 S127 |   empty   |
+ T - C  | A 24 S 18 | A 24 S 20 | A 24 S 12 |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   | A 24 S 19 |   empty   |   empty   |
+ T - D  | A 24 S 18 | A 24 S 14 | A 24 S 19 |   empty   |   empty   |   empty   |   empty   | A 24 S 17 |   empty   |   empty   |   empty   | A 24 S 20 |
+ T - E  | A 24 S 18 |   empty   | A 24 S 17 |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   | A 24 S125 |   empty   |
+ W - A  | A 24 S125 |   empty   |   empty   |   empty   | A 24 S 15 |   empty   |   empty   |   empty   | A 24 S 17 |   empty   |   empty   | A 24 S 19 |
+ W - B  |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   | A 24 S 20 | A 24 S 14 |   empty   | A 24 S 18 |   empty   | A 24 S 12 |
+ W - C  | A 24 S 18 | A 24 S 14 |   empty   | A 24 S125 | A 24 S 20 |   empty   |   empty   |   empty   |   empty   |   empty   | A 24 S 17 |   empty   |
+ W - D  | A 24 S 18 | A 24 S125 |   empty   | A 24 S 12 |   empty   |   empty   |   empty   | A 24 S 20 |   empty   | A 24 S 15 | A 24 S 17 | A 24 S 13 |
+ W - E  | A 24 S127 | A 24 S 20 |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   | A 24 S 14 |   empty   |   empty   | A 24 S 17 |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_1_6.json
+------- |  room 52  |  room 53  |  room 54  |  room 55  |  room 56  |  room 57  |
+ M - A  |   empty   |   empty   |   empty   |   empty   | A 13 S119 |   empty   |
+ M - B  | A 11 S 96 | A 13 S129 | A 11 S128 |   empty   |   empty   |   empty   |
+ M - C  | A 11 S 95 | A 11 S128 |   empty   |   empty   | A 13 S118 | A 13 S119 |
+ M - D  |   empty   | A 13 S119 |   empty   | A 13 S130 |   empty   |   empty   |
+ M - E  |   empty   | A 11 S128 |   empty   |   empty   | A 11 S 96 |   empty   |
+ T - A  | A 13 S126 | A 11 S128 | A 13 S119 |   empty   |   empty   |   empty   |
+ T - B  |   empty   | A 13 S119 |   empty   |   empty   |   empty   | A 11 S 95 |
+ T - C  |   empty   | A 11 S 95 | A 13 S119 | A 13 S129 | A 11 S 96 | A 11 S  4 |
+ T - D  | A 11 S128 | A 11 S 95 | A 13 S122 | A 13 S118 |   empty   | A 13 S119 |
+ T - E  | A 11 S114 | A 13 S119 |   empty   |   empty   |   empty   |   empty   |
+ W - A  | A 13 S126 |   empty   |   empty   | A 13 S119 |   empty   |   empty   |
+ W - B  | A 11 S128 |   empty   |   empty   | A 13 S119 |   empty   | A 11 S 95 |
+ W - C  | A 11 S128 | A 13 S119 |   empty   |   empty   |   empty   | A 11 S 96 |
+ W - D  |   empty   |   empty   |   empty   |   empty   |   empty   | A 11 S 95 |
+ W - E  | A 13 S118 |   empty   |   empty   |   empty   |   empty   | A 13 S119 |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_1_2.json
+------- |  room  2  |  room  3  |  room  4  |  room  5  |  room  6  |  room  7  |  room  8  |  room  9  |  room 10  |  room 11  |  room 12  |
+ M - A  | A 22 S 75 | A 19 S101 | A 25 S 79 | A 21 S121 | A  9 S120 | A 22 S 71 | A 22 S 69 | A 22 S 68 | A 23 S 77 | A 19 S 57 | A  5 S105 |
+ M - B  | A 22 S 71 | A 25 S 80 | A 22 S 73 | A 25 S 81 | A 21 S121 | A 22 S  2 | A 22 S 69 | A 22 S 70 | A  5 S105 | A 19 S101 | A 19 S 58 |
+ M - C  | A 19 S 58 | A  5 S105 | A 18 S 22 | A  9 S115 | A 22 S 73 | A  7 S100 | A 22 S 74 | A  7 S 28 | A 23 S 76 | A 18 S 23 | A 22 S 75 |
+ M - D  | A 25 S 80 | A 19 S101 | A 19 S 57 | A 22 S 75 | A  7 S 30 | A 22 S  2 | A  5 S104 | A  2 S 37 | A 21 S121 | A 18 S 22 | A  7 S 41 |
+ M - E  | A 25 S 81 | A 21 S121 | A  5 S112 | A  5 S105 | A 22 S 73 | A 22 S  2 | A 22 S 68 | A 19 S 58 | A  7 S 49 | A 22 S 70 | A 22 S 75 |
+ T - A  | A 25 S 80 | A 19 S 58 | A 19 S101 | A  7 S 41 | A 18 S 21 | A  7 S 30 | A 22 S  2 | A 22 S 73 | A 21 S121 | A  7 S 34 | A 22 S 75 |
+ T - B  | A 18 S 22 | A 19 S 57 | A 19 S 58 | A 22 S 71 | A 19 S101 | A  5 S104 | A 22 S 69 | A 22 S  2 | A 19 S 59 | A 21 S121 | A 22 S 70 |
+ T - C  | A 25 S 79 | A 25 S 81 | A 22 S 70 | A 22 S 71 | A  9 S115 | A  7 S 39 | A 22 S 75 | A  5 S105 | A 21 S121 | A 19 S101 | A  7 S 28 |
+ T - D  | A 25 S 79 | A 25 S 81 | A  7 S 30 | A  7 S 32 | A 22 S 75 | A  5 S104 | A 23 S  1 | A 22 S 69 | A 21 S121 | A 22 S 71 | A  5 S105 |
+ T - E  | A 25 S 79 | A 25 S 81 | A 19 S101 | A 22 S 75 | A 18 S 21 | A  9 S116 | A 22 S 68 | A 22 S 69 | A  2 S 38 | A 22 S 74 | A 22 S 73 |
+ W - A  | A 22 S 74 | A 25 S 80 | A 21 S121 | A 19 S101 | A 22 S 70 | A 22 S  2 | A 22 S 75 | A 25 S 81 | A  5 S105 | A  5 S112 | A  7 S 32 |
+ W - B  | A  5 S112 | A 25 S 81 | A 19 S101 | A  7 S 29 | A 22 S 74 | A 18 S 22 | A 25 S 79 | A 22 S 69 | A 23 S 77 | A 22 S 75 | A  7 S 30 |
+ W - C  | A 25 S 79 | A 22 S 75 | A 22 S 73 | A 22 S  2 | A 21 S121 | A  5 S105 | A  7 S 31 | A 22 S 70 | A 19 S101 | A  2 S 37 | A  7 S 33 |
+ W - D  | A 22 S 73 | A 22 S  2 | A 19 S101 | A 21 S121 | A 22 S 71 | A  7 S 30 | A 22 S 69 | A  7 S 33 | A  7 S 31 | A  5 S105 | A  2 S 38 |
+ W - E  | A 18 S 23 | A 25 S 81 | A 25 S 79 | A 22 S  2 | A  7 S100 | A 22 S 75 | A  7 S 30 | A  5 S105 | A 21 S121 | A 19 S 59 | A  5 S104 |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_1_3.json
+------- |  room 13  |  room 14  |  room 15  |  room 16  |  room 17  |  room 18  |  room 19  |  room 20  |  room 21  |  room 22  |  room 23  |  room 24  |
+ M - A  |   empty   |   empty   | A 15 S110 |   empty   | A 15 S111 | A 16 S 88 |   empty   |   empty   | A  3 S 52 | A  3 S 51 | A  3 S 54 |   empty   |
+ M - B  |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   | A  3 S 54 |   empty   |   empty   |   empty   | A 15 S111 |
+ M - C  | A 15 S111 |   empty   |   empty   |   empty   |   empty   | A 15 S  7 |   empty   |   empty   |   empty   | A  3 S 55 |   empty   |   empty   |
+ M - D  |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   | A 15 S111 |   empty   | A  3 S 56 |   empty   |   empty   |   empty   |
+ M - E  | A 15 S  7 |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   | A  3 S 54 |   empty   |   empty   |   empty   | A 16 S 88 |
+ T - A  | A  3 S 56 | A  3 S 62 |   empty   | A  3 S 54 |   empty   | A 15 S  7 |   empty   | A 16 S 88 |   empty   |   empty   | A 15 S111 |   empty   |
+ T - B  | A  3 S 53 |   empty   | A  3 S 62 |   empty   |   empty   |   empty   |   empty   | A 15 S111 |   empty   | A  3 S 52 |   empty   |   empty   |
+ T - C  |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   | A 15 S113 | A 15 S111 | A  3 S 55 |
+ T - D  |   empty   |   empty   | A  3 S 56 | A 15 S113 |   empty   |   empty   |   empty   |   empty   | A  3 S 51 |   empty   |   empty   |   empty   |
+ T - E  |   empty   | A 15 S110 |   empty   |   empty   |   empty   | A  3 S 52 | A  3 S 55 |   empty   | A  3 S 53 |   empty   |   empty   | A 15 S111 |
+ W - A  |   empty   |   empty   | A  3 S 56 |   empty   |   empty   |   empty   | A 15 S111 |   empty   |   empty   |   empty   |   empty   | A 15 S  7 |
+ W - B  |   empty   | A 15 S110 |   empty   | A 15 S111 |   empty   | A  3 S 51 |   empty   |   empty   | A 16 S 88 |   empty   |   empty   | A  3 S 56 |
+ W - C  |   empty   |   empty   |   empty   | A  3 S  8 |   empty   | A  3 S 55 |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   |
+ W - D  | A 16 S 88 |   empty   | A  3 S 54 | A  3 S 53 |   empty   |   empty   |   empty   | A  3 S 55 |   empty   |   empty   | A 15 S111 | A  3 S 56 |
+ W - E  |   empty   |   empty   | A  3 S 53 | A  3 S 63 |   empty   | A 15 S  7 |   empty   | A 15 S111 |   empty   |   empty   |   empty   |   empty   |
+INFO:root:[2021-12-29 14:48:04.623359] start mip2
+INFO:root:[2021-12-29 14:48:08.358817] solve
+Solver script file=/localscratch/arosati/70372665/tmp2sk2zzps.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmpytp42z9c.cplex.mst
+Solver log file: 'obj_2.log'
+Solver solution file: '/localscratch/arosati/70372665/tmpx96jj7k2.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmprgz3w34y.pyomo.lp',)
+INFO:root:[2021-12-29 16:12:11.893899] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_2.log
+INFO:root:[2021-12-29 16:12:11.906181] export result
+INFO:root:[2021-12-29 16:12:11.907589] model Y
+INFO:root:[2021-12-29 16:12:11.912488] model Q
+INFO:root:[2021-12-29 16:12:11.912857] model X
+INFO:root:[2021-12-29 16:12:12.260499] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_2_1.json
+INFO:root:[2021-12-29 16:12:12.262994] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_2_2.json
+INFO:root:[2021-12-29 16:12:12.339204] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_2_3.json
+INFO:root:[2021-12-29 16:12:12.408024] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_2_4.json
+INFO:root:[2021-12-29 16:12:12.466548] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_2_5.json
+INFO:root:[2021-12-29 16:12:12.539963] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_2_6.json
+INFO:root:[2021-12-29 16:12:12.558053] stop mip2
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_2_3.json
+------- |  room 13  |  room 14  |  room 15  |  room 16  |  room 17  |  room 18  |  room 19  |  room 20  |  room 21  |  room 22  |  room 23  |  room 24  |
+ M - A  | A  1 S 40 | A  1 S 48 | A 15 S111 | A  6 S123 | A  3 S 55 | A 15 S  7 | A  3 S 54 |   empty   | A  3 S 52 | A  6 S 26 |   empty   |   empty   |
+ M - B  | A  3 S 53 | A 15 S  7 | A 11 S128 | A  6 S123 | A 11 S 95 | A  6 S 64 |   empty   | A  6 S 11 |   empty   | A  3 S 56 | A  1 S 35 | A 15 S111 |
+ M - C  | A  1 S 65 | A  6 S 10 |   empty   | A  1 S117 | A  6 S 11 |   empty   | A 15 S111 | A  3 S 56 | A  1 S 35 | A  6 S123 | A  1 S 27 | A  6 S 64 |
+ M - D  | A 11 S 95 |   empty   | A 11 S128 | A 15 S110 | A 15 S111 |   empty   |   empty   | A  1 S 35 | A 11 S 96 | A  6 S123 |   empty   | A 14 S 47 |
+ M - E  | A  1 S 40 | A  1 S 35 | A 15 S110 | A  6 S123 | A  3 S 51 | A  3 S 55 | A 15 S111 |   empty   | A  6 S 11 | A  6 S 26 |   empty   | A 11 S 95 |
+ T - A  | A  3 S 56 | A 11 S128 |   empty   | A  3 S 54 | A  6 S 10 | A 15 S111 | A  1 S 35 | A  1 S 27 | A  3 S 52 | A  6 S123 | A  1 S117 | A  6 S 11 |
+ T - B  | A  1 S 35 |   empty   | A  1 S 40 | A  6 S 26 |   empty   | A  1 S 65 |   empty   | A  6 S 11 | A  3 S 55 | A  6 S123 | A  6 S 64 | A 15 S111 |
+ T - C  | A  3 S 62 | A  3 S 56 |   empty   | A 15 S113 |   empty   | A  1 S 48 | A  6 S 64 | A  6 S 11 | A  3 S 51 | A  6 S123 | A  1 S 36 | A  1 S 35 |
+ T - D  | A 15 S111 | A  1 S 27 | A 11 S 95 | A  6 S 26 | A 15 S  7 | A  1 S 65 | A  1 S 35 | A  1 S 48 | A 14 S 47 | A 11 S128 | A  6 S 11 | A  1 S 40 |
+ T - E  |   empty   | A  3 S 62 | A 11 S 96 | A  6 S 26 |   empty   | A  1 S 27 | A  6 S 11 | A  3 S 63 |   empty   | A  6 S123 | A  3 S 55 | A  1 S 35 |
+ W - A  | A  3 S 54 |   empty   | A  3 S 56 | A  6 S123 |   empty   | A  6 S 10 | A 11 S 95 | A 11 S 96 | A 15 S111 | A  6 S 26 |   empty   | A  3 S 53 |
+ W - B  | A 14 S 47 | A 15 S110 | A 11 S128 | A 15 S113 | A 15 S111 | A  6 S 11 | A  6 S 10 | A  3 S 52 | A  3 S 54 | A  3 S  8 | A  1 S117 |   empty   |
+ W - C  | A  3 S 56 | A  1 S 40 | A 11 S128 | A  6 S 26 | A 11 S 95 |   empty   |   empty   |   empty   | A  6 S 11 | A 11 S114 | A  1 S117 | A 15 S  7 |
+ W - D  | A  3 S 51 | A  1 S 27 | A 15 S111 | A  6 S 26 | A  1 S 65 | A 15 S  7 | A  6 S 11 |   empty   |   empty   | A  6 S123 | A  3 S 53 | A  6 S 64 |
+ W - E  | A  6 S 11 | A 11 S128 | A 11 S  4 | A  6 S123 | A  3 S 55 | A  3 S 53 | A  3 S 54 | A 15 S111 |   empty   | A  6 S 26 | A  1 S 35 | A 11 S 96 |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_2_2.json
+------- |  room  2  |  room  3  |  room  4  |  room  5  |  room  6  |  room  7  |  room  8  |  room  9  |  room 10  |  room 11  |  room 12  |
+ M - A  | A 27 S 25 | A  4 S107 | A 12 S 46 | A 27 S 24 | A 22 S  2 | A 22 S 75 | A 22 S 69 | A  7 S 29 | A  7 S 30 | A 22 S 71 | A  4 S 87 |
+ M - B  |   empty   | A 22 S  2 | A 22 S 75 | A 22 S 70 | A 12 S 46 | A 27 S 24 | A 27 S 25 |   empty   |   empty   | A 22 S 74 | A 22 S 73 |
+ M - C  | A  4 S107 | A 27 S 25 | A  4 S106 | A  7 S 30 | A 22 S 73 | A  4 S108 | A 22 S 71 | A 22 S 68 | A 22 S 75 | A  7 S 33 | A 22 S 74 |
+ M - D  | A  4 S107 | A  4 S106 |   empty   | A 27 S 24 |   empty   | A  4 S 99 | A 22 S 69 | A 22 S 68 | A  7 S 49 | A  2 S 38 | A 22 S 70 |
+ M - E  | A 27 S 25 | A 22 S 73 | A 22 S 70 | A  4 S 87 | A 22 S 71 | A 22 S  2 | A  4 S106 | A 22 S 69 | A 22 S 75 | A 12 S 42 |   empty   |
+ T - A  | A 12 S  9 | A 27 S 24 | A 22 S 70 | A  7 S 30 |   empty   | A  4 S 87 |   empty   | A 22 S 74 | A  4 S 99 | A  4 S108 | A 22 S 75 |
+ T - B  | A 22 S  2 | A 22 S 75 |   empty   | A  4 S106 |   empty   |   empty   | A  7 S 41 | A 22 S 69 | A 12 S 42 | A  4 S 87 | A 12 S 46 |
+ T - C  | A  7 S 32 | A 27 S 25 |   empty   | A  4 S106 | A 22 S 71 | A  4 S 87 | A 22 S 69 | A 22 S  2 |   empty   | A 22 S 75 | A 22 S 73 |
+ T - D  |   empty   | A 27 S 25 | A  4 S 86 | A  4 S107 | A 22 S 75 | A  7 S 31 |   empty   | A  4 S 87 | A 22 S 73 | A  7 S 30 | A  7 S100 |
+ T - E  |   empty   | A  7 S 31 | A  4 S109 | A 22 S 75 |   empty   | A  4 S 99 | A  4 S 86 |   empty   | A  7 S 41 | A 22 S 74 | A 27 S 24 |
+ W - A  | A 27 S 25 |   empty   | A  4 S106 | A 22 S 71 | A  2 S 38 | A 22 S  2 | A  4 S 87 | A 27 S 24 | A 12 S 42 |   empty   | A  7 S 39 |
+ W - B  | A 22 S 73 |   empty   | A  4 S 86 |   empty   | A  4 S106 | A 12 S 98 | A 22 S 68 | A 22 S  2 | A  2 S 37 | A 22 S 75 | A  7 S 30 |
+ W - C  | A  4 S107 | A  4 S 87 |   empty   | A  7 S 34 | A  4 S 99 | A  4 S108 | A 22 S 70 | A 22 S 69 | A 22 S 75 | A  7 S 28 | A  7 S 33 |
+ W - D  | A  4 S106 | A 27 S 25 | A  4 S  6 | A  2 S 37 | A  7 S 28 | A 22 S  2 | A 22 S 69 | A 22 S 73 | A 22 S 70 | A 22 S 75 |   empty   |
+ W - E  | A  4 S106 |   empty   | A 22 S 71 | A 22 S  2 | A 27 S 24 | A  7 S100 | A  7 S 30 | A 12 S 98 | A  7 S 32 |   empty   | A  4 S 99 |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_2_6.json
+------- |  room 52  |  room 53  |  room 54  |  room 55  |  room 56  |  room 57  |
+ M - A  | A 13 S126 |   empty   |   empty   |   empty   |   empty   |   empty   |
+ M - B  |   empty   |   empty   |   empty   |   empty   |   empty   | A 13 S119 |
+ M - C  | A 13 S130 |   empty   | A 13 S122 | A 13 S119 | A 13 S118 |   empty   |
+ M - D  |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   |
+ M - E  |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   |
+ T - A  |   empty   |   empty   | A 13 S119 | A 13 S129 |   empty   | A 13 S118 |
+ T - B  |   empty   | A 13 S119 |   empty   |   empty   |   empty   |   empty   |
+ T - C  |   empty   |   empty   | A 13 S119 |   empty   |   empty   |   empty   |
+ T - D  |   empty   |   empty   |   empty   |   empty   |   empty   | A 13 S119 |
+ T - E  |   empty   |   empty   |   empty   |   empty   |   empty   | A 13 S119 |
+ W - A  | A 13 S126 |   empty   |   empty   | A 13 S119 |   empty   |   empty   |
+ W - B  |   empty   | A 13 S129 | A 13 S119 |   empty   |   empty   | A 13 S118 |
+ W - C  |   empty   |   empty   |   empty   |   empty   | A 13 S119 |   empty   |
+ W - D  |   empty   |   empty   |   empty   |   empty   |   empty   | A 13 S119 |
+ W - E  |   empty   |   empty   | A 13 S119 |   empty   |   empty   |   empty   |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_2_4.json
+------- |  room 25  |  room 26  |  room 27  |  room 28  |  room 29  |  room 30  |  room 31  |  room 32  |  room 33  |  room 34  |  room 35  |  room 36  |
+ M - A  | A 25 S 81 | A 21 S121 | A 18 S 22 | A 16 S 88 |   empty   | A 25 S 79 | A 19 S101 | A 20 S 50 |   empty   |   empty   | A 19 S 58 | A  5 S105 |
+ M - B  |   empty   | A 21 S121 | A  5 S112 | A 17 S 61 | A 20 S 50 |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   | A 18 S 23 |
+ M - C  | A  9 S116 | A 25 S 81 |   empty   | A 20 S 67 | A 19 S101 | A  5 S105 | A 16 S 88 |   empty   |   empty   |   empty   | A 21 S121 |   empty   |
+ M - D  | A 25 S 81 | A 21 S121 | A 20 S 50 | A 17 S 84 |   empty   |   empty   | A 25 S 80 |   empty   | A 18 S 21 | A  5 S105 |   empty   | A 19 S101 |
+ M - E  |   empty   | A 20 S 66 |   empty   | A 19 S 58 | A  5 S105 |   empty   | A 21 S121 |   empty   |   empty   | A 25 S 81 | A 19 S101 | A 20 S 50 |
+ T - A  |   empty   | A 16 S 88 | A 17 S 60 | A  5 S104 | A 18 S 22 |   empty   | A 19 S101 | A 20 S 78 | A  5 S105 |   empty   | A 19 S 57 | A 20 S 50 |
+ T - B  |   empty   |   empty   | A  5 S104 |   empty   |   empty   |   empty   | A 25 S 79 | A 21 S121 | A 19 S101 | A  5 S105 |   empty   |   empty   |
+ T - C  |   empty   |   empty   |   empty   | A 20 S 67 | A 17 S 60 | A 16 S 88 |   empty   |   empty   |   empty   | A  5 S105 |   empty   | A 21 S121 |
+ T - D  | A 18 S 22 | A 20 S 72 | A 19 S 59 | A 21 S121 | A 19 S 58 | A 19 S 57 | A  9 S115 | A 19 S101 | A 25 S 79 | A  5 S105 | A 25 S 80 |   empty   |
+ T - E  |   empty   | A  5 S105 |   empty   |   empty   | A 17 S 61 | A  5 S104 | A 21 S121 |   empty   | A 25 S 80 | A 16 S 88 |   empty   | A 20 S 50 |
+ W - A  | A 17 S 60 | A 18 S 21 | A 17 S 61 |   empty   | A 20 S 66 |   empty   | A 19 S101 |   empty   | A 25 S 81 | A 18 S 22 | A 25 S 79 | A  5 S112 |
+ W - B  |   empty   | A  9 S115 |   empty   |   empty   |   empty   |   empty   | A 21 S121 | A 25 S 79 |   empty   | A 25 S 81 |   empty   |   empty   |
+ W - C  | A  5 S112 | A 25 S 81 |   empty   |   empty   | A 19 S 58 | A  9 S120 | A 25 S 79 | A 19 S101 | A 20 S 50 | A  5 S104 |   empty   | A 20 S  3 |
+ W - D  |   empty   |   empty   | A 21 S121 | A 20 S 67 |   empty   |   empty   |   empty   | A 18 S 23 | A 19 S 58 | A 19 S 59 | A 19 S101 |   empty   |
+ W - E  | A 21 S121 | A 20 S 67 | A 25 S 79 |   empty   | A 25 S 81 |   empty   | A 20 S 50 | A 17 S 60 | A 19 S101 | A 19 S 57 | A 25 S 80 | A  5 S105 |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_2_1.json
+------- |  room  1  |
+ M - A  | A 26 S 43 |
+ M - B  | A 26 S 45 |
+ M - C  | A 26 S 43 |
+ M - D  | A 26 S 43 |
+ M - E  | A 26 S 44 |
+ T - A  |   empty   |
+ T - B  |   empty   |
+ T - C  | A 26 S 45 |
+ T - D  | A 26 S 44 |
+ T - E  | A 26 S 44 |
+ W - A  | A 26 S 43 |
+ W - B  |   empty   |
+ W - C  | A 26 S 43 |
+ W - D  | A 26 S 43 |
+ W - E  | A 26 S 44 |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_2_5.json
+------- |  room 37  |  room 38  |  room 39  |  room 40  |  room 41  |  room 42  |  room 43  |  room 44  |  room 45  |  room 46  |  room 47  |  room 48  |  room 49  |  room 50  |  room 51  |
+ M - A  | A 24 S 20 | A 10 S 94 | A  8 S124 | A 24 S 14 | A  8 S102 |   empty   |   empty   | A 24 S 12 |   empty   | A  8 S 83 | A 24 S125 |   empty   | A 24 S 18 |   empty   | A 24 S 17 |
+ M - B  | A  8 S102 | A  8 S 82 |   empty   |   empty   | A 24 S 15 | A  8 S 83 | A 24 S 20 |   empty   |   empty   | A 24 S 17 |   empty   | A 24 S 14 |   empty   |   empty   |   empty   |
+ M - C  | A 24 S 14 | A 24 S 20 | A 24 S 15 | A 24 S 17 | A  8 S 83 | A  8 S102 | A 10 S 89 | A 24 S 18 | A 24 S 13 | A  8 S 82 | A 24 S 19 |   empty   |   empty   |   empty   | A 10 S 93 |
+ M - D  | A  8 S102 | A 24 S 17 |   empty   |   empty   | A  8 S 82 |   empty   |   empty   | A 10 S 93 |   empty   | A 10 S  5 | A 24 S 20 |   empty   |   empty   |   empty   |   empty   |
+ M - E  |   empty   | A 24 S 20 | A 24 S 12 |   empty   | A  8 S102 | A 10 S 94 |   empty   | A 24 S 18 |   empty   |   empty   | A 10 S 92 | A 24 S 17 |   empty   |   empty   | A 24 S 15 |
+ T - A  |   empty   | A 10 S 97 | A 24 S 13 | A  8 S102 | A 24 S127 |   empty   |   empty   | A 24 S 18 | A 23 S 76 | A 24 S 14 | A 24 S 16 | A 10 S 94 | A 24 S 17 | A 24 S 19 |   empty   |
+ T - B  |   empty   | A 24 S 17 | A 24 S 12 | A  8 S102 |   empty   |   empty   | A 10 S 94 | A 10 S 90 |   empty   | A 24 S 18 | A 10 S 97 |   empty   |   empty   | A 24 S 13 | A 24 S 14 |
+ T - C  | A 24 S 16 | A 10 S 93 |   empty   | A 24 S 13 | A 24 S 12 | A 24 S 20 |   empty   |   empty   |   empty   | A  8 S 83 | A 23 S  1 | A 24 S 18 |   empty   |   empty   | A 23 S 77 |
+ T - D  | A 24 S127 | A 24 S 18 |   empty   | A  8 S 83 |   empty   |   empty   |   empty   |   empty   | A 10 S 94 |   empty   | A 24 S125 |   empty   |   empty   |   empty   |   empty   |
+ T - E  |   empty   | A 24 S 20 | A 24 S 18 | A  8 S102 |   empty   |   empty   |   empty   |   empty   |   empty   | A  8 S 82 |   empty   |   empty   |   empty   | A 10 S 94 | A 24 S 14 |
+ W - A  | A 24 S 14 | A  8 S103 | A 24 S 17 |   empty   |   empty   | A  8 S102 |   empty   | A 10 S 97 | A 10 S 92 | A  8 S 83 | A 10 S 89 |   empty   | A 24 S125 |   empty   |   empty   |
+ W - B  | A 10 S 89 |   empty   | A  8 S 83 | A 10 S 97 |   empty   |   empty   | A 10 S 94 | A 24 S 14 | A 24 S 18 | A  8 S102 | A  8 S 85 |   empty   | A 24 S 17 |   empty   | A 24 S125 |
+ W - C  | A 24 S125 | A  8 S 83 |   empty   | A 24 S 20 | A 24 S 17 | A  8 S102 |   empty   | A 24 S 18 |   empty   | A 10 S 97 |   empty   |   empty   | A 24 S 19 | A 10 S 94 | A 10 S 89 |
+ W - D  |   empty   | A  8 S102 |   empty   | A 10 S 91 | A  8 S 82 | A 24 S 20 |   empty   | A 24 S 18 |   empty   | A  8 S 83 | A 10 S 90 | A 24 S 12 | A 24 S 19 | A 23 S 77 |   empty   |
+ W - E  | A  8 S124 |   empty   | A 24 S 17 | A 24 S 19 | A 24 S 14 |   empty   |   empty   |   empty   | A 24 S 20 |   empty   |   empty   | A 24 S125 |   empty   | A 10 S 90 |   empty   |
+INFO:root:[2021-12-29 16:12:14.349590] start mip3 (b=3)
+INFO:root:[2021-12-29 16:12:14.508560] solve
+Solver script file=/localscratch/arosati/70372665/tmp5x40wued.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmp423whdmj.cplex.mst
+Solver log file: 'obj_3_3.log'
+Solver solution file: '/localscratch/arosati/70372665/tmp1o1hcuyn.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmppznfbfya.pyomo.lp',)
+INFO:root:[2021-12-29 16:12:15.499148] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_3_3.log
+INFO:root:[2021-12-29 16:12:15.500906] export result
+INFO:root:[2021-12-29 16:12:15.501852] model Y
+INFO:root:[2021-12-29 16:12:15.502176] model Q
+INFO:root:[2021-12-29 16:12:15.502244] model U
+INFO:root:[2021-12-29 16:12:15.503615] model X
+INFO:root:[2021-12-29 16:12:15.528319] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_3_3.json
+INFO:root:[2021-12-29 16:12:15.606730] stop mip3 (b=3)
+INFO:root:[2021-12-29 16:12:16.117984] start mip3 (b=2)
+INFO:root:[2021-12-29 16:12:16.297595] solve
+Solver script file=/localscratch/arosati/70372665/tmpzgqay8hq.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmpvcm76mg0.cplex.mst
+Solver log file: 'obj_3_2.log'
+Solver solution file: '/localscratch/arosati/70372665/tmprmpzx3_7.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmpl6r41jqy.pyomo.lp',)
+INFO:root:[2021-12-29 16:12:17.116898] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_3_2.log
+INFO:root:[2021-12-29 16:12:17.118599] export result
+INFO:root:[2021-12-29 16:12:17.119317] model Y
+INFO:root:[2021-12-29 16:12:17.119609] model Q
+INFO:root:[2021-12-29 16:12:17.119669] model U
+INFO:root:[2021-12-29 16:12:17.120882] model X
+INFO:root:[2021-12-29 16:12:17.142222] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_3_2.json
+INFO:root:[2021-12-29 16:12:17.207365] stop mip3 (b=2)
+INFO:root:[2021-12-29 16:12:17.733874] start mip3 (b=6)
+INFO:root:[2021-12-29 16:12:17.761122] solve
+Solver script file=/localscratch/arosati/70372665/tmps8cm55yx.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmpwnocutbg.cplex.mst
+Solver log file: 'obj_3_6.log'
+Solver solution file: '/localscratch/arosati/70372665/tmp940i4o3t.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmpyaau_r42.pyomo.lp',)
+INFO:root:[2021-12-29 16:12:18.051474] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_3_6.log
+INFO:root:[2021-12-29 16:12:18.052945] export result
+INFO:root:[2021-12-29 16:12:18.053221] model Y
+INFO:root:[2021-12-29 16:12:18.053347] model Q
+INFO:root:[2021-12-29 16:12:18.053397] model U
+INFO:root:[2021-12-29 16:12:18.053563] model X
+INFO:root:[2021-12-29 16:12:18.055549] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_3_6.json
+INFO:root:[2021-12-29 16:12:18.062790] stop mip3 (b=6)
+INFO:root:[2021-12-29 16:12:18.562009] start mip3 (b=4)
+INFO:root:[2021-12-29 16:12:18.719014] solve
+Solver script file=/localscratch/arosati/70372665/tmp5chxtirm.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmpd0zapm18.cplex.mst
+Solver log file: 'obj_3_4.log'
+Solver solution file: '/localscratch/arosati/70372665/tmp2q7p7xe4.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmpwq5zoob5.pyomo.lp',)
+INFO:root:[2021-12-29 16:12:19.268796] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_3_4.log
+INFO:root:[2021-12-29 16:12:19.270316] export result
+INFO:root:[2021-12-29 16:12:19.270968] model Y
+INFO:root:[2021-12-29 16:12:19.271231] model Q
+INFO:root:[2021-12-29 16:12:19.271299] model U
+INFO:root:[2021-12-29 16:12:19.272338] model X
+INFO:root:[2021-12-29 16:12:19.290961] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_3_4.json
+INFO:root:[2021-12-29 16:12:19.348545] stop mip3 (b=4)
+INFO:root:[2021-12-29 16:12:19.850979] start mip3 (b=1)
+INFO:root:[2021-12-29 16:12:19.860272] solve
+Solver script file=/localscratch/arosati/70372665/tmpkgimyosh.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmpggiymco5.cplex.mst
+Solver log file: 'obj_3_1.log'
+Solver solution file: '/localscratch/arosati/70372665/tmpfjbr7ipe.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmpb6a_94fd.pyomo.lp',)
+INFO:root:[2021-12-29 16:12:19.908911] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_3_1.log
+INFO:root:[2021-12-29 16:12:19.910309] export result
+INFO:root:[2021-12-29 16:12:19.910734] model Y
+INFO:root:[2021-12-29 16:12:19.910846] model Q
+INFO:root:[2021-12-29 16:12:19.910900] model U
+INFO:root:[2021-12-29 16:12:19.910957] model X
+INFO:root:[2021-12-29 16:12:19.911166] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_3_1.json
+INFO:root:[2021-12-29 16:12:19.912914] stop mip3 (b=1)
+INFO:root:[2021-12-29 16:12:20.421188] start mip3 (b=5)
+INFO:root:[2021-12-29 16:12:20.598269] solve
+Solver script file=/localscratch/arosati/70372665/tmp1fn8f5yq.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmp3waysx9z.cplex.mst
+Solver log file: 'obj_3_5.log'
+Solver solution file: '/localscratch/arosati/70372665/tmp55jfoll3.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmpf6q8q0i2.pyomo.lp',)
+INFO:root:[2021-12-29 16:12:21.467977] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_3_5.log
+INFO:root:[2021-12-29 16:12:21.469682] export result
+INFO:root:[2021-12-29 16:12:21.470803] model Y
+INFO:root:[2021-12-29 16:12:21.471129] model Q
+INFO:root:[2021-12-29 16:12:21.471200] model U
+INFO:root:[2021-12-29 16:12:21.473084] model X
+INFO:root:[2021-12-29 16:12:21.501527] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_3_5.json
+INFO:root:[2021-12-29 16:12:21.592972] stop mip3 (b=5)
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_3_5.json
+------- |  room 37  |  room 38  |  room 39  |  room 40  |  room 41  |  room 42  |  room 43  |  room 44  |  room 45  |  room 46  |  room 47  |  room 48  |  room 49  |  room 50  |  room 51  |
+ M - A  | A 10 S 94 | A 10 S 93 |   empty   | A 10 S 91 | A  8 S 82 |   empty   |   empty   | A 24 S 18 |   empty   | A 24 S 17 | A 10 S 90 |   empty   |   empty   |   empty   |   empty   |
+ M - B  | A 10 S 94 | A  8 S103 | A  8 S 83 |   empty   | A  8 S 82 | A  8 S102 |   empty   | A 24 S 18 |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   |
+ M - C  | A 10 S 94 |   empty   |   empty   |   empty   |   empty   | A  8 S102 |   empty   | A 24 S 18 | A 10 S 89 | A 24 S 17 | A 24 S 19 |   empty   |   empty   | A 24 S 20 | A 24 S 15 |
+ M - D  |   empty   |   empty   |   empty   | A 24 S125 | A  8 S 82 | A  8 S102 |   empty   | A 24 S 18 | A 24 S 13 | A 24 S 17 |   empty   | A 10 S 97 |   empty   | A 24 S 20 |   empty   |
+ M - E  |   empty   |   empty   | A  8 S 83 | A 24 S125 | A  8 S 82 | A  8 S102 |   empty   | A 24 S 18 | A 10 S 89 | A 24 S 17 | A 10 S 92 |   empty   |   empty   | A 24 S 20 | A 23 S 77 |
+ T - A  |   empty   |   empty   | A  8 S 83 |   empty   | A 24 S 14 | A  8 S102 |   empty   |   empty   | A 24 S 12 | A 24 S 17 | A 24 S 19 |   empty   |   empty   |   empty   | A 23 S 77 |
+ T - B  |   empty   |   empty   | A  8 S 83 |   empty   | A 24 S 14 | A  8 S102 |   empty   | A 24 S 18 | A 24 S 12 | A 24 S 17 | A 24 S 19 | A 10 S  5 |   empty   |   empty   |   empty   |
+ T - C  |   empty   |   empty   |   empty   |   empty   | A 24 S 14 |   empty   |   empty   |   empty   | A 24 S 12 | A 24 S 17 | A 24 S 19 |   empty   |   empty   | A 24 S 20 | A 24 S 15 |
+ T - D  | A 10 S 94 |   empty   | A  8 S 83 |   empty   | A 24 S 14 | A  8 S102 |   empty   |   empty   | A 10 S 89 | A 24 S 17 | A 24 S127 |   empty   |   empty   | A 24 S 20 |   empty   |
+ T - E  |   empty   | A 10 S 93 | A  8 S 83 | A 24 S125 | A 24 S 14 | A  8 S102 |   empty   |   empty   | A 24 S 13 | A 24 S 17 |   empty   |   empty   |   empty   | A 24 S 20 |   empty   |
+ W - A  | A 10 S 94 |   empty   | A  8 S 83 | A 24 S125 | A  8 S 82 | A  8 S102 |   empty   | A 24 S 18 | A 10 S 89 |   empty   | A 10 S 92 |   empty   |   empty   | A 24 S 20 | A 24 S 15 |
+ W - B  | A 10 S 94 | A 24 S 16 | A  8 S 83 | A 24 S125 | A 24 S 14 | A  8 S102 |   empty   | A 24 S 18 | A 24 S 12 |   empty   | A 10 S 90 | A 10 S 97 |   empty   | A 24 S 20 |   empty   |
+ W - C  | A 10 S 94 |   empty   | A  8 S124 | A 24 S125 | A 24 S 14 | A  8 S102 |   empty   | A 24 S 18 | A 24 S 12 | A 23 S 76 | A 24 S 19 | A 10 S 97 |   empty   | A 24 S 20 |   empty   |
+ W - D  | A 10 S 94 | A 24 S 16 | A  8 S 83 | A  8 S 85 | A 24 S 14 | A 23 S  1 |   empty   | A 24 S 18 | A 24 S 13 | A 24 S 17 | A 24 S127 | A 10 S 97 |   empty   |   empty   |   empty   |
+ W - E  |   empty   | A 10 S 93 | A  8 S124 |   empty   | A 24 S 14 | A  8 S102 |   empty   | A 24 S 18 | A 24 S 13 | A 24 S 17 | A 10 S 90 | A 10 S 97 |   empty   | A 24 S 20 |   empty   |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_3_1.json
+------- |  room  1  |
+ M - A  | A 26 S 43 |
+ M - B  | A 26 S 45 |
+ M - C  | A 26 S 43 |
+ M - D  | A 26 S 43 |
+ M - E  | A 26 S 44 |
+ T - A  |   empty   |
+ T - B  |   empty   |
+ T - C  | A 26 S 45 |
+ T - D  | A 26 S 44 |
+ T - E  | A 26 S 44 |
+ W - A  | A 26 S 43 |
+ W - B  |   empty   |
+ W - C  | A 26 S 43 |
+ W - D  | A 26 S 43 |
+ W - E  | A 26 S 44 |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_3_4.json
+------- |  room 25  |  room 26  |  room 27  |  room 28  |  room 29  |  room 30  |  room 31  |  room 32  |  room 33  |  room 34  |  room 35  |  room 36  |
+ M - A  | A 25 S 79 | A 25 S 80 |   empty   | A 20 S 67 |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   | A 21 S121 | A 19 S101 |
+ M - B  | A  5 S104 |   empty   |   empty   | A 20 S 67 |   empty   |   empty   | A 19 S 58 |   empty   | A  5 S105 |   empty   | A 21 S121 | A 19 S101 |
+ M - C  |   empty   | A 18 S 23 |   empty   | A 20 S 50 |   empty   |   empty   | A 19 S 59 | A 25 S 81 | A  5 S105 |   empty   | A 21 S121 | A 19 S101 |
+ M - D  | A  5 S104 |   empty   |   empty   | A 20 S 67 |   empty   |   empty   | A 19 S 58 | A 25 S 81 | A  5 S105 |   empty   | A 21 S121 | A 17 S 60 |
+ M - E  |   empty   | A 25 S 80 |   empty   | A 20 S 67 | A 16 S 88 |   empty   | A  9 S115 | A 18 S 21 | A  5 S105 | A 20 S 66 | A 21 S121 | A 17 S 60 |
+ T - A  | A 25 S 79 |   empty   |   empty   | A 20 S 50 |   empty   |   empty   | A 20 S  3 | A 19 S 57 | A  5 S105 |   empty   |   empty   | A 19 S101 |
+ T - B  |   empty   |   empty   |   empty   | A 20 S 50 | A 18 S 22 |   empty   | A 19 S 58 | A 25 S 81 | A  5 S105 |   empty   | A 21 S121 | A 19 S101 |
+ T - C  | A 25 S 79 |   empty   |   empty   | A 20 S 50 | A 18 S 22 |   empty   | A  9 S115 | A 25 S 81 | A  5 S105 |   empty   | A 21 S121 | A 19 S101 |
+ T - D  | A  5 S104 |   empty   |   empty   | A  9 S116 | A 16 S 88 |   empty   | A 17 S 61 | A 25 S 81 | A  5 S105 |   empty   | A 21 S121 | A 19 S101 |
+ T - E  | A  5 S104 |   empty   |   empty   | A 20 S 50 | A 16 S 88 |   empty   | A 19 S 59 | A 19 S 57 | A  5 S105 |   empty   | A 21 S121 | A 17 S 60 |
+ W - A  |   empty   |   empty   | A  5 S112 |   empty   | A 18 S 22 | A  9 S120 | A 19 S 58 | A 25 S 81 | A  5 S105 |   empty   |   empty   | A 19 S101 |
+ W - B  | A 25 S 79 |   empty   |   empty   | A 20 S 50 | A 16 S 88 | A 17 S 84 | A 19 S 58 | A 25 S 81 |   empty   |   empty   |   empty   | A 17 S 60 |
+ W - C  | A 25 S 79 | A 18 S 23 |   empty   | A 20 S 50 | A 20 S 72 |   empty   | A 17 S 61 | A 19 S 57 |   empty   |   empty   | A 21 S121 | A 19 S101 |
+ W - D  | A 25 S 79 | A 25 S 80 | A  5 S112 | A 20 S 50 | A 18 S 22 |   empty   | A 17 S 61 | A 25 S 81 |   empty   |   empty   | A 21 S121 | A 19 S101 |
+ W - E  | A 25 S 79 | A 25 S 80 | A  5 S112 |   empty   | A 16 S 88 |   empty   | A 20 S 78 | A 18 S 21 |   empty   | A 20 S 66 | A 21 S121 | A 19 S101 |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_3_6.json
+------- |  room 52  |  room 53  |  room 54  |  room 55  |  room 56  |  room 57  |
+ M - A  |   empty   |   empty   |   empty   |   empty   | A 13 S119 | A 13 S129 |
+ M - B  |   empty   |   empty   |   empty   |   empty   |   empty   | A 13 S118 |
+ M - C  |   empty   |   empty   |   empty   |   empty   | A 13 S130 |   empty   |
+ M - D  |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   |
+ M - E  | A 13 S122 |   empty   |   empty   |   empty   | A 13 S119 |   empty   |
+ T - A  |   empty   | A 13 S126 |   empty   |   empty   | A 13 S119 |   empty   |
+ T - B  |   empty   |   empty   |   empty   |   empty   | A 13 S119 |   empty   |
+ T - C  |   empty   |   empty   |   empty   |   empty   | A 13 S119 |   empty   |
+ T - D  |   empty   |   empty   |   empty   |   empty   | A 13 S119 |   empty   |
+ T - E  |   empty   |   empty   |   empty   |   empty   | A 13 S119 |   empty   |
+ W - A  |   empty   |   empty   |   empty   |   empty   | A 13 S119 |   empty   |
+ W - B  |   empty   |   empty   |   empty   |   empty   | A 13 S119 |   empty   |
+ W - C  |   empty   |   empty   |   empty   |   empty   | A 13 S119 | A 13 S118 |
+ W - D  |   empty   |   empty   |   empty   |   empty   | A 13 S119 | A 13 S118 |
+ W - E  |   empty   | A 13 S126 |   empty   |   empty   | A 13 S119 | A 13 S129 |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_3_2.json
+------- |  room  2  |  room  3  |  room  4  |  room  5  |  room  6  |  room  7  |  room  8  |  room  9  |  room 10  |  room 11  |  room 12  |
+ M - A  | A 22 S 75 | A 27 S 25 | A  4 S 87 | A 27 S 24 | A  4 S  6 | A 22 S 70 | A 22 S 69 | A 22 S 74 | A  7 S 33 |   empty   | A  4 S106 |
+ M - B  | A 22 S 75 | A 12 S  9 | A  4 S108 | A 27 S 24 |   empty   | A 22 S 70 | A 22 S 69 |   empty   | A  7 S 30 | A 22 S 71 | A  2 S 38 |
+ M - C  | A 22 S 75 | A 27 S 25 | A  4 S 87 | A 27 S 24 | A  7 S 34 | A 22 S  2 | A 12 S 46 |   empty   | A  7 S 30 | A  4 S 86 |   empty   |
+ M - D  | A 22 S 75 |   empty   | A  7 S100 | A 27 S 24 | A  4 S107 | A 22 S  2 | A 22 S 69 |   empty   | A  4 S 99 |   empty   | A  4 S106 |
+ M - E  | A 22 S 75 | A 27 S 25 | A  4 S 87 | A 22 S 73 | A  4 S109 | A 22 S  2 | A 22 S 69 | A 22 S 68 | A  7 S 30 |   empty   | A  2 S 37 |
+ T - A  | A 22 S 75 | A  7 S 31 | A  4 S 87 | A 22 S 73 | A  4 S107 | A 22 S 70 |   empty   | A 22 S 68 | A  7 S 28 |   empty   |   empty   |
+ T - B  | A 22 S 75 | A 27 S 25 | A  4 S 87 | A 22 S 73 | A  7 S 39 | A 22 S  2 |   empty   |   empty   | A  4 S 99 | A 22 S 71 | A  2 S 38 |
+ T - C  | A 22 S 75 | A 27 S 25 | A  4 S 87 | A 22 S 73 | A  4 S107 | A 22 S  2 | A 12 S 46 |   empty   | A  7 S 30 | A 22 S 71 | A  2 S 37 |
+ T - D  | A 22 S 75 | A  7 S 31 |   empty   | A 22 S 73 | A 12 S 42 | A 22 S  2 |   empty   |   empty   | A  7 S 28 | A 22 S 71 | A  4 S106 |
+ T - E  | A  7 S 32 | A  7 S 41 | A  4 S 87 | A 27 S 24 | A  4 S107 | A 22 S  2 | A 22 S 69 |   empty   | A  4 S 99 | A 22 S 71 | A  4 S106 |
+ W - A  | A 22 S 75 | A 27 S 25 |   empty   | A 27 S 24 |   empty   | A 22 S 70 | A 22 S 69 | A 22 S 68 | A  7 S 30 | A 22 S 71 | A  4 S106 |
+ W - B  | A  7 S 49 | A  7 S 41 | A  7 S100 | A 27 S 24 | A  4 S107 | A 22 S  2 |   empty   | A 22 S 74 | A  4 S 99 | A 12 S 98 | A  4 S106 |
+ W - C  | A 22 S 75 | A 27 S 25 | A  4 S 87 | A  7 S 29 | A 12 S 42 | A 22 S 70 | A 12 S 46 | A 22 S 74 | A  7 S 30 | A  4 S 86 | A  4 S106 |
+ W - D  | A 22 S 75 | A 27 S 25 | A  4 S108 | A 22 S 73 |   empty   | A 22 S  2 |   empty   | A 22 S 74 | A  7 S 33 | A 12 S 98 | A  4 S106 |
+ W - E  | A  7 S 32 |   empty   | A  4 S108 | A 22 S 73 | A 12 S 42 | A 22 S 70 | A 22 S 69 |   empty   | A  4 S 99 | A  4 S 86 | A  4 S106 |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_3_3.json
+------- |  room 13  |  room 14  |  room 15  |  room 16  |  room 17  |  room 18  |  room 19  |  room 20  |  room 21  |  room 22  |  room 23  |  room 24  |
+ M - A  | A  1 S 35 | A 15 S110 | A 11 S128 | A  6 S123 | A  6 S 11 |   empty   | A  3 S 54 | A  6 S 64 | A  1 S117 | A  6 S 26 | A  6 S 10 |   empty   |
+ M - B  | A  1 S 40 | A 15 S111 | A  1 S 48 | A 11 S  4 | A  6 S 11 |   empty   | A 15 S  7 | A 11 S 95 | A  3 S 63 | A  1 S 65 | A  6 S 10 |   empty   |
+ M - C  | A  1 S 40 | A 15 S111 |   empty   | A  6 S123 | A  6 S 11 |   empty   | A 11 S 96 | A  6 S 64 |   empty   | A  6 S 26 | A  3 S 55 | A  3 S 56 |
+ M - D  | A  1 S 40 | A 15 S111 | A  1 S 48 | A 11 S114 | A  6 S 11 |   empty   | A 15 S  7 |   empty   |   empty   | A  6 S 26 | A  1 S 27 |   empty   |
+ M - E  | A  1 S 40 | A 15 S111 |   empty   | A  6 S123 | A  6 S 11 |   empty   | A 11 S 96 | A 11 S 95 |   empty   | A  6 S 26 | A  6 S 10 |   empty   |
+ T - A  | A  1 S 35 | A 15 S111 | A 11 S128 | A  6 S123 | A  6 S 11 |   empty   | A 15 S  7 | A  6 S 64 | A  1 S117 | A  6 S 26 | A  3 S 55 |   empty   |
+ T - B  | A  1 S 35 | A 15 S111 | A 11 S128 | A  3 S  8 | A  3 S 52 |   empty   | A 11 S 96 | A  6 S 64 | A  3 S 53 | A  1 S 65 |   empty   | A  3 S 56 |
+ T - C  | A  1 S 35 | A 15 S110 | A 11 S128 | A  6 S123 | A  6 S 11 |   empty   | A  3 S 54 |   empty   | A  3 S 53 | A  1 S 65 | A  3 S 55 |   empty   |
+ T - D  | A  1 S 35 | A 15 S111 | A 11 S128 | A  6 S123 | A  3 S 52 |   empty   | A  3 S 54 | A 11 S 95 | A  1 S117 | A 15 S113 | A  3 S 55 | A  3 S 62 |
+ T - E  | A  1 S 35 | A 15 S111 | A  3 S 51 | A  6 S123 | A  6 S 11 | A 14 S 47 | A  3 S 54 | A 11 S 95 |   empty   | A  6 S 26 | A  6 S 10 | A  3 S 56 |
+ W - A  | A  1 S 35 | A 15 S111 | A 11 S128 | A  6 S123 | A  6 S 11 |   empty   | A 11 S 96 | A  6 S 64 |   empty   | A 15 S113 | A  3 S 55 | A  3 S 62 |
+ W - B  | A  1 S 35 | A 15 S110 | A  3 S 51 | A  6 S123 | A  3 S 52 |   empty   | A 15 S  7 |   empty   |   empty   | A  6 S 26 | A  1 S 27 | A  1 S 36 |
+ W - C  | A  1 S 35 | A 15 S111 | A 11 S128 | A  6 S123 | A  6 S 11 |   empty   | A  3 S 54 |   empty   | A  1 S117 | A  6 S 26 | A  1 S 27 | A  3 S 56 |
+ W - D  | A  1 S 40 | A 15 S111 | A  1 S 48 | A  6 S123 | A  6 S 11 | A 14 S 47 | A 15 S  7 | A 11 S 95 | A  3 S 53 | A  1 S 65 | A  1 S 27 | A  3 S 56 |
+ W - E  | A  1 S 35 | A 15 S111 | A  3 S 51 | A  6 S123 | A  6 S 11 | A 14 S 47 |   empty   | A 11 S 95 | A  3 S 53 | A  6 S 26 | A  1 S 27 | A  3 S 56 |
+INFO:root:[2021-12-29 16:12:22.666382] start mip4 (b=3)
+INFO:root:[2021-12-29 16:12:22.911790] solve
+Solver script file=/localscratch/arosati/70372665/tmp9cmh8456.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmpy2x1jhca.cplex.mst
+Solver log file: 'obj_4_3.log'
+Solver solution file: '/localscratch/arosati/70372665/tmpbk0ybgkd.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmp5pj7cech.pyomo.lp',)
+INFO:root:[2021-12-29 16:27:23.754158] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_4_3.log
+INFO:root:[2021-12-29 16:27:23.769327] export result
+INFO:root:[2021-12-29 16:27:23.769868] model Y
+INFO:root:[2021-12-29 16:27:23.770129] model Q
+INFO:root:[2021-12-29 16:27:23.770193] model U
+INFO:root:[2021-12-29 16:27:23.771303] model FIRST
+INFO:root:[2021-12-29 16:27:23.771393] model LAST
+INFO:root:[2021-12-29 16:27:23.771468] model X
+INFO:root:[2021-12-29 16:27:23.790337] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_4_3.json
+INFO:root:[2021-12-29 16:27:23.860695] stop mip4 (b=3)
+INFO:root:[2021-12-29 16:27:24.653392] start mip4 (b=2)
+INFO:root:[2021-12-29 16:27:24.890758] solve
+Solver script file=/localscratch/arosati/70372665/tmpf9c6kktd.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmpgfpqs9p7.cplex.mst
+Solver log file: 'obj_4_2.log'
+Solver solution file: '/localscratch/arosati/70372665/tmp22ljoo78.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmpa8qx9jqc.pyomo.lp',)
+INFO:root:[2021-12-29 16:42:25.673918] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_4_2.log
+INFO:root:[2021-12-29 16:42:25.700193] export result
+INFO:root:[2021-12-29 16:42:25.700732] model Y
+INFO:root:[2021-12-29 16:42:25.701028] model Q
+INFO:root:[2021-12-29 16:42:25.701084] model U
+INFO:root:[2021-12-29 16:42:25.702225] model FIRST
+INFO:root:[2021-12-29 16:42:25.702313] model LAST
+INFO:root:[2021-12-29 16:42:25.702393] model X
+INFO:root:[2021-12-29 16:42:25.721918] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_4_2.json
+INFO:root:[2021-12-29 16:42:25.787173] stop mip4 (b=2)
+INFO:root:[2021-12-29 16:42:26.617694] start mip4 (b=6)
+INFO:root:[2021-12-29 16:42:26.665099] solve
+Solver script file=/localscratch/arosati/70372665/tmpj1vtdjhz.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmpfde0hgvn.cplex.mst
+Solver log file: 'obj_4_6.log'
+Solver solution file: '/localscratch/arosati/70372665/tmpdsvsvzi9.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmp39jidlu4.pyomo.lp',)
+INFO:root:[2021-12-29 16:43:24.940781] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_4_6.log
+INFO:root:[2021-12-29 16:43:24.942710] export result
+INFO:root:[2021-12-29 16:43:24.943029] model Y
+INFO:root:[2021-12-29 16:43:24.943164] model Q
+INFO:root:[2021-12-29 16:43:24.943215] model U
+INFO:root:[2021-12-29 16:43:24.943375] model FIRST
+INFO:root:[2021-12-29 16:43:24.943421] model LAST
+INFO:root:[2021-12-29 16:43:24.943464] model X
+INFO:root:[2021-12-29 16:43:24.945361] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_4_6.json
+INFO:root:[2021-12-29 16:43:24.953047] stop mip4 (b=6)
+INFO:root:[2021-12-29 16:43:25.571087] start mip4 (b=4)
+INFO:root:[2021-12-29 16:43:25.767115] solve
+Solver script file=/localscratch/arosati/70372665/tmpkyedjknk.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmpqz3ndwb5.cplex.mst
+Solver log file: 'obj_4_4.log'
+Solver solution file: '/localscratch/arosati/70372665/tmp96o91fsk.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmp69mjb91q.pyomo.lp',)
+INFO:root:[2021-12-29 16:58:30.080510] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_4_4.log
+INFO:root:[2021-12-29 16:58:30.082920] export result
+INFO:root:[2021-12-29 16:58:30.083311] model Y
+INFO:root:[2021-12-29 16:58:30.083569] model Q
+INFO:root:[2021-12-29 16:58:30.083640] model U
+INFO:root:[2021-12-29 16:58:30.084684] model FIRST
+INFO:root:[2021-12-29 16:58:30.084777] model LAST
+INFO:root:[2021-12-29 16:58:30.084858] model X
+INFO:root:[2021-12-29 16:58:30.102282] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_4_4.json
+INFO:root:[2021-12-29 16:58:30.162575] stop mip4 (b=4)
+INFO:root:[2021-12-29 16:58:30.997395] start mip4 (b=1)
+INFO:root:[2021-12-29 16:58:31.010186] solve
+Solver script file=/localscratch/arosati/70372665/tmprbwvx3ct.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmp7vlk0td9.cplex.mst
+Solver log file: 'obj_4_1.log'
+Solver solution file: '/localscratch/arosati/70372665/tmpcs5bvl20.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmpqf504hzo.pyomo.lp',)
+INFO:root:[2021-12-29 16:58:31.318924] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_4_1.log
+INFO:root:[2021-12-29 16:58:31.320475] export result
+INFO:root:[2021-12-29 16:58:31.320708] model Y
+INFO:root:[2021-12-29 16:58:31.320813] model Q
+INFO:root:[2021-12-29 16:58:31.320864] model U
+INFO:root:[2021-12-29 16:58:31.320920] model FIRST
+INFO:root:[2021-12-29 16:58:31.320962] model LAST
+INFO:root:[2021-12-29 16:58:31.321000] model X
+INFO:root:[2021-12-29 16:58:31.321205] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_4_1.json
+INFO:root:[2021-12-29 16:58:31.323052] stop mip4 (b=1)
+INFO:root:[2021-12-29 16:58:31.825162] start mip4 (b=5)
+INFO:root:[2021-12-29 16:58:32.067391] solve
+Solver script file=/localscratch/arosati/70372665/tmp7awqeapp.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmpidahbzx4.cplex.mst
+Solver log file: 'obj_4_5.log'
+Solver solution file: '/localscratch/arosati/70372665/tmpuzhuykgg.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmpkzkhe1hz.pyomo.lp',)
+INFO:root:[2021-12-29 17:13:33.170640] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_4_5.log
+INFO:root:[2021-12-29 17:13:33.196406] export result
+INFO:root:[2021-12-29 17:13:33.196939] model Y
+INFO:root:[2021-12-29 17:13:33.197206] model Q
+INFO:root:[2021-12-29 17:13:33.197266] model U
+INFO:root:[2021-12-29 17:13:33.198605] model FIRST
+INFO:root:[2021-12-29 17:13:33.198699] model LAST
+INFO:root:[2021-12-29 17:13:33.198785] model X
+INFO:root:[2021-12-29 17:13:33.221779] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_4_5.json
+INFO:root:[2021-12-29 17:13:33.295213] stop mip4 (b=5)
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_4_2.json
+------- |  room  2  |  room  3  |  room  4  |  room  5  |  room  6  |  room  7  |  room  8  |  room  9  |  room 10  |  room 11  |  room 12  |
+ M - A  | A  7 S 29 |   empty   | A  4 S 86 | A  4 S 99 |   empty   |   empty   | A 22 S 68 | A 27 S 25 |   empty   | A  7 S 39 | A  7 S 41 |
+ M - B  | A  2 S 37 | A  4 S109 | A  4 S 86 | A  4 S 99 | A 27 S 24 | A  7 S100 | A 22 S 68 | A 27 S 25 | A 22 S 75 | A  2 S 38 | A  7 S 41 |
+ M - C  | A  2 S 37 | A  7 S 34 | A  4 S 86 | A  4 S 99 | A 27 S 24 | A  7 S100 | A 22 S 68 | A 27 S 25 | A 22 S 75 | A  2 S 38 |   empty   |
+ M - D  |   empty   | A  4 S106 | A  7 S 33 | A  4 S 99 | A 27 S 24 | A 22 S  2 | A  7 S 49 | A 27 S 25 | A 22 S 75 |   empty   |   empty   |
+ M - E  | A 22 S 70 | A  4 S106 | A  7 S 33 | A  4 S 99 | A 27 S 24 | A 22 S  2 | A 22 S 74 | A 27 S 25 | A 22 S 75 |   empty   |   empty   |
+ T - A  | A 22 S 70 | A  4 S106 |   empty   |   empty   | A 27 S 24 | A 22 S  2 | A 22 S 74 | A 27 S 25 | A 22 S 75 |   empty   | A  4 S 87 |
+ T - B  | A 22 S 70 | A  4 S106 | A 22 S 73 | A  7 S 30 | A 27 S 24 | A 22 S  2 | A 22 S 74 | A 27 S 25 | A 22 S 75 | A  4 S108 | A  4 S 87 |
+ T - C  | A 22 S 70 | A  4 S106 | A 22 S 73 | A  7 S 30 | A 27 S 24 | A 22 S  2 | A 22 S 74 | A 27 S 25 | A 22 S 75 | A  4 S108 | A  4 S 87 |
+ T - D  | A 22 S 70 | A  4 S106 | A 22 S 73 | A  7 S 30 | A 22 S 71 | A 22 S  2 | A  4 S107 | A 22 S 69 | A 22 S 75 | A  4 S108 | A  4 S 87 |
+ T - E  | A 22 S 70 | A  4 S106 | A 22 S 73 | A  7 S 30 | A 22 S 71 | A 22 S  2 | A  4 S107 | A 22 S 69 | A 22 S 75 |   empty   | A  4 S 87 |
+ W - A  | A 12 S 42 | A  4 S106 | A 22 S 73 | A  7 S 30 | A 22 S 71 | A 22 S  2 | A  4 S107 | A 22 S 69 | A 22 S 75 |   empty   | A  4 S 87 |
+ W - B  | A 12 S 42 | A  4 S106 | A 22 S 73 | A  7 S 30 | A 22 S 71 | A 22 S  2 | A  4 S107 | A 22 S 69 | A 22 S 75 | A  7 S 32 | A  4 S 87 |
+ W - C  | A 12 S 42 |   empty   | A 22 S 73 |   empty   | A 22 S 71 | A 12 S 46 | A  4 S107 | A 22 S 69 | A 22 S 75 | A  7 S 32 | A  4 S 87 |
+ W - D  | A 12 S 98 |   empty   | A  7 S 28 |   empty   | A 22 S 71 | A 12 S 46 |   empty   | A 22 S 69 |   empty   | A  7 S 31 |   empty   |
+ W - E  | A 12 S 98 | A 12 S  9 | A  7 S 28 |   empty   |   empty   | A 12 S 46 |   empty   | A 22 S 69 | A  4 S  6 | A  7 S 31 |   empty   |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_4_6.json
+------- |  room 52  |  room 53  |  room 54  |  room 55  |  room 56  |  room 57  |
+ M - A  |   empty   |   empty   | A 13 S122 | A 13 S118 |   empty   |   empty   |
+ M - B  | A 13 S130 |   empty   |   empty   | A 13 S118 |   empty   |   empty   |
+ M - C  |   empty   |   empty   |   empty   | A 13 S118 |   empty   |   empty   |
+ M - D  |   empty   |   empty   |   empty   | A 13 S119 |   empty   |   empty   |
+ M - E  |   empty   |   empty   |   empty   | A 13 S119 |   empty   |   empty   |
+ T - A  |   empty   |   empty   |   empty   | A 13 S119 |   empty   |   empty   |
+ T - B  |   empty   |   empty   |   empty   | A 13 S119 |   empty   |   empty   |
+ T - C  |   empty   |   empty   |   empty   | A 13 S119 |   empty   |   empty   |
+ T - D  |   empty   |   empty   |   empty   | A 13 S119 |   empty   |   empty   |
+ T - E  |   empty   |   empty   |   empty   | A 13 S119 |   empty   |   empty   |
+ W - A  |   empty   |   empty   |   empty   | A 13 S119 |   empty   |   empty   |
+ W - B  |   empty   |   empty   |   empty   | A 13 S119 |   empty   |   empty   |
+ W - C  | A 13 S126 |   empty   |   empty   | A 13 S119 |   empty   | A 13 S129 |
+ W - D  | A 13 S126 |   empty   |   empty   | A 13 S119 |   empty   | A 13 S129 |
+ W - E  |   empty   |   empty   |   empty   | A 13 S119 |   empty   |   empty   |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_4_3.json
+------- |  room 13  |  room 14  |  room 15  |  room 16  |  room 17  |  room 18  |  room 19  |  room 20  |  room 21  |  room 22  |  room 23  |  room 24  |
+ M - A  | A  6 S 64 | A  1 S 35 | A  6 S 11 |   empty   | A  1 S 36 |   empty   |   empty   |   empty   | A  3 S 63 |   empty   |   empty   |   empty   |
+ M - B  | A  6 S 64 | A  1 S 35 | A  6 S 11 |   empty   | A 15 S111 |   empty   |   empty   |   empty   | A  1 S 27 |   empty   | A  3 S 56 | A  3 S 53 |
+ M - C  | A  6 S 64 | A  1 S 35 | A  6 S 11 | A  3 S  8 | A 15 S111 |   empty   |   empty   | A 11 S 95 | A  1 S 27 |   empty   | A  3 S 56 | A  3 S 53 |
+ M - D  | A  6 S 64 | A  1 S 35 | A  6 S 11 | A  6 S123 | A 15 S111 |   empty   |   empty   | A 11 S 95 | A  1 S 27 | A 15 S113 | A  3 S 56 | A  3 S 53 |
+ M - E  | A  6 S 64 | A  1 S 35 | A  6 S 11 | A  6 S123 | A 15 S111 |   empty   | A  1 S 40 | A 11 S 95 | A  1 S 27 | A 15 S113 | A  1 S117 | A  3 S 53 |
+ T - A  | A 11 S  4 | A  1 S 35 | A  6 S 11 | A  6 S123 | A 15 S111 | A 15 S  7 | A  1 S 40 | A 11 S 95 | A  1 S 27 | A  6 S 26 | A  3 S 56 |   empty   |
+ T - B  | A 11 S128 | A  1 S 35 | A  6 S 11 | A  6 S123 | A 15 S111 | A 15 S  7 | A  1 S 40 | A 11 S 95 | A  3 S 54 | A  6 S 26 | A  3 S 56 | A  3 S 55 |
+ T - C  | A 11 S128 | A  1 S 35 | A  6 S 11 | A  6 S123 | A 15 S111 | A 15 S  7 | A  1 S 40 | A 11 S 95 | A  3 S 54 | A  6 S 26 | A  3 S 56 | A  3 S 55 |
+ T - D  | A 11 S128 | A  1 S 35 | A  6 S 11 | A  6 S123 | A 15 S111 | A 15 S  7 | A  1 S 40 |   empty   | A  3 S 54 | A  6 S 26 | A  1 S117 | A  3 S 55 |
+ T - E  | A 11 S128 | A  1 S 35 | A  6 S 11 | A  6 S123 | A 15 S111 | A 15 S  7 |   empty   | A  6 S 10 | A  3 S 54 | A  6 S 26 | A  1 S117 | A  3 S 55 |
+ W - A  | A 11 S128 |   empty   | A  6 S 11 | A  6 S123 | A 15 S111 | A  1 S 65 | A 11 S 96 | A  6 S 10 | A  3 S 54 | A  6 S 26 | A  1 S117 | A  3 S 55 |
+ W - B  | A 11 S128 | A 15 S110 | A  6 S 11 | A  6 S123 | A 15 S111 | A  1 S 65 | A 11 S 96 | A  6 S 10 | A  1 S 48 | A  6 S 26 |   empty   | A 14 S 47 |
+ W - C  | A 11 S128 | A 15 S110 | A  3 S 52 | A  6 S123 | A 15 S111 | A  1 S 65 | A 11 S 96 | A  6 S 10 | A  1 S 48 | A  6 S 26 | A  3 S 51 | A 14 S 47 |
+ W - D  |   empty   | A 15 S110 | A  3 S 52 | A  6 S123 |   empty   | A  1 S 65 | A 11 S 96 | A  3 S 62 | A  1 S 48 | A  6 S 26 | A  3 S 51 | A 14 S 47 |
+ W - E  |   empty   |   empty   | A  3 S 52 | A  6 S123 |   empty   |   empty   |   empty   | A  3 S 62 |   empty   | A 11 S114 | A  3 S 51 |   empty   |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_4_1.json
+------- |  room  1  |
+ M - A  |   empty   |
+ M - B  | A 26 S 45 |
+ M - C  | A 26 S 45 |
+ M - D  |   empty   |
+ M - E  |   empty   |
+ T - A  | A 26 S 44 |
+ T - B  | A 26 S 44 |
+ T - C  | A 26 S 44 |
+ T - D  | A 26 S 44 |
+ T - E  | A 26 S 43 |
+ W - A  | A 26 S 43 |
+ W - B  | A 26 S 43 |
+ W - C  | A 26 S 43 |
+ W - D  | A 26 S 43 |
+ W - E  | A 26 S 43 |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_4_5.json
+------- |  room 37  |  room 38  |  room 39  |  room 40  |  room 41  |  room 42  |  room 43  |  room 44  |  room 45  |  room 46  |  room 47  |  room 48  |  room 49  |  room 50  |  room 51  |
+ M - A  |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   | A 24 S125 |   empty   | A  8 S 85 |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   |
+ M - B  |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   | A 24 S125 | A 24 S 12 |   empty   |   empty   |   empty   | A 24 S 18 |   empty   |   empty   |   empty   |
+ M - C  |   empty   | A 23 S 77 | A  8 S102 |   empty   | A 24 S 17 |   empty   | A 24 S125 | A 24 S 12 |   empty   |   empty   | A 24 S 16 | A 24 S 18 |   empty   |   empty   |   empty   |
+ M - D  |   empty   | A 23 S 77 | A  8 S102 |   empty   | A 24 S 17 |   empty   | A 24 S125 | A 24 S 12 | A 24 S 14 |   empty   | A 24 S 16 | A 24 S 18 |   empty   |   empty   | A 24 S 20 |
+ M - E  |   empty   | A 24 S127 | A  8 S102 |   empty   | A 24 S 17 | A  8 S 83 | A 24 S125 | A 24 S 12 | A 24 S 14 |   empty   | A 10 S 97 | A 24 S 18 |   empty   |   empty   | A 24 S 20 |
+ T - A  |   empty   | A 24 S127 | A  8 S102 | A 10 S 94 | A 24 S 17 | A  8 S 83 | A 24 S125 | A 24 S 12 | A 24 S 14 |   empty   | A 10 S 97 | A 24 S 18 |   empty   |   empty   | A 24 S 20 |
+ T - B  | A  8 S 82 | A 24 S 15 | A  8 S102 | A 10 S 94 | A 24 S 17 | A  8 S 83 |   empty   |   empty   | A 24 S 14 | A 24 S 13 | A 10 S 97 | A 24 S 18 |   empty   |   empty   | A 24 S 20 |
+ T - C  | A  8 S 82 | A 24 S 15 | A  8 S102 | A 10 S 94 | A 24 S 17 | A  8 S 83 |   empty   | A 10 S 91 | A 24 S 14 | A 24 S 13 | A 10 S 97 | A 24 S 18 |   empty   |   empty   | A 24 S 20 |
+ T - D  | A  8 S 82 | A 24 S 15 | A  8 S102 | A 10 S 94 | A 24 S 17 | A  8 S 83 |   empty   |   empty   | A 24 S 14 | A 24 S 13 | A 10 S 97 | A 24 S 18 |   empty   |   empty   | A 24 S 20 |
+ T - E  | A  8 S 82 |   empty   | A  8 S102 | A 10 S 94 | A 24 S 17 | A  8 S 83 |   empty   | A 24 S 19 | A 24 S 14 | A 24 S 13 | A 10 S 89 | A 24 S 18 |   empty   |   empty   | A 24 S 20 |
+ W - A  | A  8 S 82 |   empty   | A  8 S102 | A 10 S 94 | A 24 S 17 | A  8 S 83 |   empty   | A 24 S 19 | A 24 S 14 |   empty   | A 10 S 89 | A 24 S 18 | A 23 S  1 |   empty   | A 24 S 20 |
+ W - B  |   empty   |   empty   | A  8 S102 | A 10 S 94 | A 24 S 17 | A  8 S 83 |   empty   | A 24 S 19 | A 24 S 14 | A 10 S 92 | A 10 S 89 | A 24 S 18 |   empty   |   empty   | A 24 S 20 |
+ W - C  | A 10 S 93 | A  8 S124 | A  8 S102 | A 10 S 94 | A 24 S 17 | A  8 S 83 | A 10 S 90 | A 24 S 19 |   empty   | A 10 S 92 | A 10 S 89 | A 23 S 76 |   empty   |   empty   | A 24 S 20 |
+ W - D  | A 10 S 93 | A  8 S124 | A  8 S102 |   empty   |   empty   |   empty   | A 10 S 90 | A 24 S 19 |   empty   |   empty   |   empty   | A  8 S103 |   empty   |   empty   |   empty   |
+ W - E  | A 10 S 93 |   empty   |   empty   |   empty   |   empty   |   empty   | A 10 S 90 |   empty   |   empty   |   empty   | A 10 S  5 |   empty   |   empty   |   empty   |   empty   |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_4_4.json
+------- |  room 25  |  room 26  |  room 27  |  room 28  |  room 29  |  room 30  |  room 31  |  room 32  |  room 33  |  room 34  |  room 35  |  room 36  |
+ M - A  |   empty   |   empty   | A  9 S120 |   empty   |   empty   |   empty   |   empty   | A 17 S 84 | A 18 S 23 |   empty   | A 25 S 79 |   empty   |
+ M - B  | A 17 S 61 | A 20 S  3 |   empty   |   empty   | A 20 S 72 |   empty   | A 19 S 59 |   empty   | A 18 S 23 |   empty   | A 25 S 79 | A 21 S121 |
+ M - C  | A 17 S 61 |   empty   | A 25 S 81 | A  5 S105 | A  5 S112 |   empty   | A 19 S 59 |   empty   |   empty   |   empty   | A 25 S 79 | A 21 S121 |
+ M - D  | A 17 S 61 |   empty   | A 25 S 81 | A  5 S105 | A  5 S112 | A 19 S101 |   empty   |   empty   |   empty   |   empty   | A 25 S 79 | A 21 S121 |
+ M - E  | A 20 S 67 |   empty   | A 25 S 81 | A  5 S105 | A  5 S112 | A 19 S101 | A 19 S 58 | A 20 S 50 | A 19 S 57 |   empty   | A 25 S 79 | A 21 S121 |
+ T - A  | A 20 S 67 | A 18 S 22 | A 25 S 81 | A  5 S105 |   empty   | A 19 S101 | A 19 S 58 | A 20 S 50 | A 19 S 57 |   empty   | A 25 S 79 | A 21 S121 |
+ T - B  | A 20 S 67 | A 18 S 22 | A 25 S 81 | A  5 S105 |   empty   | A 19 S101 | A 19 S 58 | A 20 S 50 | A 19 S 57 |   empty   | A 25 S 79 | A 21 S121 |
+ T - C  | A 20 S 67 | A 18 S 22 | A 25 S 81 | A  5 S105 |   empty   | A 19 S101 | A 19 S 58 | A 20 S 50 |   empty   |   empty   |   empty   | A 21 S121 |
+ T - D  |   empty   | A 18 S 22 | A 25 S 81 | A  5 S105 | A  5 S104 | A 19 S101 | A 19 S 58 | A 20 S 50 | A 18 S 21 |   empty   |   empty   | A 21 S121 |
+ T - E  | A 25 S 80 | A 17 S 60 | A 25 S 81 | A  5 S105 | A  5 S104 | A 19 S101 |   empty   | A 20 S 50 | A 18 S 21 |   empty   |   empty   | A 21 S121 |
+ W - A  | A 25 S 80 | A 17 S 60 |   empty   | A  5 S105 | A  5 S104 | A 19 S101 |   empty   | A 20 S 50 | A 20 S 66 | A 16 S 88 |   empty   | A 21 S121 |
+ W - B  | A 25 S 80 | A 17 S 60 |   empty   | A  5 S105 | A  5 S104 | A 19 S101 |   empty   | A 20 S 50 | A 20 S 66 | A 16 S 88 |   empty   | A 21 S121 |
+ W - C  | A 25 S 80 | A 17 S 60 |   empty   |   empty   |   empty   | A 19 S101 |   empty   |   empty   |   empty   | A 16 S 88 |   empty   | A 21 S121 |
+ W - D  |   empty   |   empty   |   empty   |   empty   | A  9 S115 | A 19 S101 | A 20 S 78 |   empty   |   empty   | A 16 S 88 |   empty   |   empty   |
+ W - E  |   empty   |   empty   |   empty   |   empty   | A  9 S115 |   empty   |   empty   |   empty   | A  9 S116 | A 16 S 88 |   empty   |   empty   |
+INFO:root:[2021-12-29 17:13:34.633240] start mip5 (b=3)
+INFO:root:[2021-12-29 17:13:35.067834] solve
+Solver script file=/localscratch/arosati/70372665/tmpt0p749pc.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmp3waqgb2p.cplex.mst
+Solver log file: 'obj_5_3.log'
+Solver solution file: '/localscratch/arosati/70372665/tmpig0ufa3o.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmpg4cwiasp.pyomo.lp',)
+INFO:root:[2021-12-29 17:13:36.042009] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_5_3.log
+INFO:root:[2021-12-29 17:13:36.043922] export result
+INFO:root:[2021-12-29 17:13:36.060153] model Y
+INFO:root:[2021-12-29 17:13:36.060501] model Q
+INFO:root:[2021-12-29 17:13:36.060560] model U
+INFO:root:[2021-12-29 17:13:36.061627] model FIRST
+INFO:root:[2021-12-29 17:13:36.061713] model LAST
+INFO:root:[2021-12-29 17:13:36.061816] model X
+INFO:root:[2021-12-29 17:13:36.081113] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_5_3.json
+INFO:root:[2021-12-29 17:13:36.144940] stop mip5 (b=3)
+INFO:root:[2021-12-29 17:13:36.714701] start mip5 (b=2)
+INFO:root:[2021-12-29 17:13:37.167442] solve
+Solver script file=/localscratch/arosati/70372665/tmpmdgx0yxh.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmpidzv7zkt.cplex.mst
+Solver log file: 'obj_5_2.log'
+Solver solution file: '/localscratch/arosati/70372665/tmpym1wqiuy.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmp3qsmb9h5.pyomo.lp',)
+INFO:root:[2021-12-29 17:28:45.015214] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_5_2.log
+INFO:root:[2021-12-29 17:28:45.034395] export result
+INFO:root:[2021-12-29 17:28:45.052473] model Y
+INFO:root:[2021-12-29 17:28:45.052875] model Q
+INFO:root:[2021-12-29 17:28:45.052951] model U
+INFO:root:[2021-12-29 17:28:45.054174] model FIRST
+INFO:root:[2021-12-29 17:28:45.054272] model LAST
+INFO:root:[2021-12-29 17:28:45.054365] model X
+INFO:root:[2021-12-29 17:28:45.105581] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_5_2.json
+INFO:root:[2021-12-29 17:28:45.175084] stop mip5 (b=2)
+INFO:root:[2021-12-29 17:28:45.943174] start mip5 (b=6)
+INFO:root:[2021-12-29 17:28:46.011083] solve
+Solver script file=/localscratch/arosati/70372665/tmpj119u3d3.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmpfrxaq9d4.cplex.mst
+Solver log file: 'obj_5_6.log'
+Solver solution file: '/localscratch/arosati/70372665/tmp3ehsm8ol.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmp0xd9s55i.pyomo.lp',)
+INFO:root:[2021-12-29 17:28:46.268008] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_5_6.log
+INFO:root:[2021-12-29 17:28:46.269835] export result
+INFO:root:[2021-12-29 17:28:46.271831] model Y
+INFO:root:[2021-12-29 17:28:46.271997] model Q
+INFO:root:[2021-12-29 17:28:46.272073] model U
+INFO:root:[2021-12-29 17:28:46.272265] model FIRST
+INFO:root:[2021-12-29 17:28:46.272323] model LAST
+INFO:root:[2021-12-29 17:28:46.272375] model X
+INFO:root:[2021-12-29 17:28:46.274507] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_5_6.json
+INFO:root:[2021-12-29 17:28:46.283634] stop mip5 (b=6)
+INFO:root:[2021-12-29 17:28:46.883724] start mip5 (b=4)
+INFO:root:[2021-12-29 17:28:47.329206] solve
+Solver script file=/localscratch/arosati/70372665/tmpxh2i9ii2.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmp5ogbs69l.cplex.mst
+Solver log file: 'obj_5_4.log'
+Solver solution file: '/localscratch/arosati/70372665/tmppjo2vaq9.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmp99ylcq4t.pyomo.lp',)
+INFO:root:[2021-12-29 17:29:02.418250] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_5_4.log
+INFO:root:[2021-12-29 17:29:02.419658] export result
+INFO:root:[2021-12-29 17:29:02.433725] model Y
+INFO:root:[2021-12-29 17:29:02.434050] model Q
+INFO:root:[2021-12-29 17:29:02.434123] model U
+INFO:root:[2021-12-29 17:29:02.435107] model FIRST
+INFO:root:[2021-12-29 17:29:02.435187] model LAST
+INFO:root:[2021-12-29 17:29:02.435264] model X
+INFO:root:[2021-12-29 17:29:02.452471] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_5_4.json
+INFO:root:[2021-12-29 17:29:02.519012] stop mip5 (b=4)
+INFO:root:[2021-12-29 17:29:03.076971] start mip5 (b=1)
+INFO:root:[2021-12-29 17:29:03.090804] solve
+Solver script file=/localscratch/arosati/70372665/tmppm3dr1nu.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmpicq07h5k.cplex.mst
+Solver log file: 'obj_5_1.log'
+Solver solution file: '/localscratch/arosati/70372665/tmppz9rigjz.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmpo0tzq_wc.pyomo.lp',)
+INFO:root:[2021-12-29 17:29:03.140620] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_5_1.log
+INFO:root:[2021-12-29 17:29:03.142056] export result
+INFO:root:[2021-12-29 17:29:03.142427] model Y
+INFO:root:[2021-12-29 17:29:03.142530] model Q
+INFO:root:[2021-12-29 17:29:03.142580] model U
+INFO:root:[2021-12-29 17:29:03.142635] model FIRST
+INFO:root:[2021-12-29 17:29:03.142676] model LAST
+INFO:root:[2021-12-29 17:29:03.142716] model X
+INFO:root:[2021-12-29 17:29:03.142924] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_5_1.json
+INFO:root:[2021-12-29 17:29:03.144432] stop mip5 (b=1)
+INFO:root:[2021-12-29 17:29:03.674425] start mip5 (b=5)
+INFO:root:[2021-12-29 17:29:04.129238] solve
+Solver script file=/localscratch/arosati/70372665/tmp_v631cz2.cplex.script
+Solver warm-start file=/localscratch/arosati/70372665/tmpeqq274et.cplex.mst
+Solver log file: 'obj_5_5.log'
+Solver solution file: '/localscratch/arosati/70372665/tmpxn6o3yxs.cplex.sol'
+Solver problem files: ('/localscratch/arosati/70372665/tmpxm_xzypw.pyomo.lp',)
+INFO:root:[2021-12-29 17:40:04.808763] save result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/cplex/obj_5_5.log
+INFO:root:[2021-12-29 17:40:04.818459] export result
+INFO:root:[2021-12-29 17:40:04.837411] model Y
+INFO:root:[2021-12-29 17:40:04.837757] model Q
+INFO:root:[2021-12-29 17:40:04.837826] model U
+INFO:root:[2021-12-29 17:40:04.839029] model FIRST
+INFO:root:[2021-12-29 17:40:04.839119] model LAST
+INFO:root:[2021-12-29 17:40:04.839196] model X
+INFO:root:[2021-12-29 17:40:04.890256] export building result to /home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_5_5.json
+INFO:root:[2021-12-29 17:40:04.970799] stop mip5 (b=5)
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_5_4.json
+------- |  room 25  |  room 26  |  room 27  |  room 28  |  room 29  |  room 30  |  room 31  |  room 32  |  room 33  |  room 34  |  room 35  |  room 36  |
+ M - A  | A 17 S 84 | A 20 S 67 | A  9 S120 | A  5 S112 | A  9 S116 |   empty   |   empty   | A 20 S 72 | A 18 S 23 |   empty   | A 25 S 79 |   empty   |
+ M - B  | A 17 S 61 | A 20 S 67 | A 20 S 66 | A  5 S112 | A 20 S  3 |   empty   |   empty   |   empty   | A 18 S 23 | A 20 S 50 | A 25 S 79 | A 21 S121 |
+ M - C  | A 17 S 61 | A 20 S 67 | A 20 S 66 | A  5 S112 |   empty   |   empty   |   empty   |   empty   | A  9 S115 | A 20 S 50 | A 25 S 79 | A 21 S121 |
+ M - D  | A 17 S 61 | A 20 S 67 |   empty   | A  5 S105 |   empty   | A 19 S101 | A 19 S 58 |   empty   | A  9 S115 | A 20 S 50 | A 25 S 79 | A 21 S121 |
+ M - E  |   empty   |   empty   | A 25 S 81 | A  5 S105 |   empty   | A 19 S101 | A 19 S 58 |   empty   | A 19 S 57 | A 20 S 50 | A 25 S 79 | A 21 S121 |
+ T - A  |   empty   | A 18 S 22 | A 25 S 81 | A  5 S105 |   empty   | A 19 S101 | A 19 S 58 |   empty   | A 19 S 57 | A 20 S 50 | A 25 S 79 | A 21 S121 |
+ T - B  |   empty   | A 18 S 22 | A 25 S 81 | A  5 S105 |   empty   | A 19 S101 | A 19 S 58 |   empty   | A 19 S 57 | A 20 S 50 | A 25 S 79 | A 21 S121 |
+ T - C  |   empty   | A 18 S 22 | A 25 S 81 | A  5 S105 |   empty   | A 19 S101 | A 19 S 58 |   empty   |   empty   | A 20 S 50 |   empty   | A 21 S121 |
+ T - D  |   empty   | A 18 S 22 | A 25 S 81 | A  5 S105 |   empty   | A 19 S101 |   empty   |   empty   |   empty   | A 20 S 50 |   empty   | A 21 S121 |
+ T - E  | A 25 S 80 | A 17 S 60 | A 25 S 81 | A  5 S105 | A  5 S104 | A 19 S101 |   empty   |   empty   |   empty   |   empty   |   empty   | A 21 S121 |
+ W - A  | A 25 S 80 | A 17 S 60 | A 25 S 81 | A  5 S105 | A  5 S104 | A 19 S101 |   empty   |   empty   |   empty   | A 16 S 88 |   empty   | A 21 S121 |
+ W - B  | A 25 S 80 | A 17 S 60 | A 25 S 81 | A  5 S105 | A  5 S104 | A 19 S101 |   empty   |   empty   |   empty   | A 16 S 88 |   empty   | A 21 S121 |
+ W - C  | A 25 S 80 | A 17 S 60 | A 19 S 59 | A  5 S105 | A  5 S104 | A 19 S101 |   empty   |   empty   |   empty   | A 16 S 88 |   empty   | A 21 S121 |
+ W - D  |   empty   |   empty   | A 19 S 59 |   empty   | A 18 S 21 | A 19 S101 |   empty   |   empty   |   empty   | A 16 S 88 |   empty   |   empty   |
+ W - E  |   empty   | A 20 S 78 |   empty   |   empty   | A 18 S 21 |   empty   |   empty   |   empty   |   empty   | A 16 S 88 |   empty   |   empty   |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_5_5.json
+------- |  room 37  |  room 38  |  room 39  |  room 40  |  room 41  |  room 42  |  room 43  |  room 44  |  room 45  |  room 46  |  room 47  |  room 48  |  room 49  |  room 50  |  room 51  |
+ M - A  | A 23 S 76 | A 10 S  5 | A  8 S 85 | A 10 S 91 | A  8 S103 | A 23 S 77 | A 24 S125 |   empty   |   empty   |   empty   | A 24 S 19 |   empty   |   empty   |   empty   |   empty   |
+ M - B  | A 10 S 97 | A 10 S 89 |   empty   |   empty   |   empty   | A 23 S 77 | A 24 S125 |   empty   |   empty   |   empty   | A 24 S 19 | A 24 S 18 |   empty   |   empty   |   empty   |
+ M - C  | A 10 S 97 | A 10 S 89 | A  8 S102 | A 10 S 90 | A 24 S 17 |   empty   | A 24 S125 |   empty   |   empty   |   empty   | A 24 S 19 | A 24 S 18 | A 24 S 14 |   empty   |   empty   |
+ M - D  | A 10 S 97 | A 10 S 89 | A  8 S102 | A 10 S 90 | A 24 S 17 | A  8 S 83 | A 24 S125 |   empty   |   empty   | A 10 S 93 | A 24 S 19 | A 24 S 18 | A 24 S 14 |   empty   | A 24 S 20 |
+ M - E  | A 10 S 97 | A 10 S 89 | A  8 S102 | A 10 S 90 | A 24 S 17 | A  8 S 83 | A 24 S125 |   empty   |   empty   | A 10 S 93 | A 24 S 19 | A 24 S 18 | A 24 S 14 |   empty   | A 24 S 20 |
+ T - A  | A 10 S 97 | A 24 S 15 | A  8 S102 | A 10 S 94 | A 24 S 17 | A  8 S 83 | A 24 S125 |   empty   |   empty   | A 10 S 93 |   empty   | A 24 S 18 | A 24 S 14 |   empty   | A 24 S 20 |
+ T - B  | A  8 S 82 | A 24 S 15 | A  8 S102 | A 10 S 94 | A 24 S 17 | A  8 S 83 |   empty   |   empty   |   empty   | A 24 S 13 |   empty   | A 24 S 18 | A 24 S 14 |   empty   | A 24 S 20 |
+ T - C  | A  8 S 82 | A 24 S 15 | A  8 S102 | A 10 S 94 | A 24 S 17 | A  8 S 83 |   empty   |   empty   |   empty   | A 24 S 13 |   empty   | A 24 S 18 | A 24 S 14 |   empty   | A 24 S 20 |
+ T - D  | A  8 S 82 |   empty   | A  8 S102 | A 10 S 94 | A 24 S 17 | A  8 S 83 |   empty   |   empty   |   empty   | A 24 S 13 |   empty   | A 24 S 18 | A 24 S 14 |   empty   | A 24 S 20 |
+ T - E  | A  8 S 82 |   empty   | A  8 S102 | A 10 S 94 | A 24 S 17 | A  8 S 83 |   empty   |   empty   |   empty   | A 24 S 13 |   empty   | A 24 S 18 | A 24 S 14 |   empty   | A 24 S 20 |
+ W - A  | A  8 S 82 | A 23 S  1 | A  8 S102 | A 10 S 94 | A 24 S 17 | A  8 S 83 |   empty   |   empty   |   empty   |   empty   |   empty   | A 24 S 18 | A 24 S 14 | A 24 S 12 | A 24 S 20 |
+ W - B  |   empty   |   empty   | A  8 S102 | A 10 S 94 | A 24 S 17 | A  8 S 83 |   empty   |   empty   |   empty   |   empty   |   empty   | A 24 S 18 |   empty   | A 24 S 12 | A 24 S 20 |
+ W - C  |   empty   | A  8 S124 | A  8 S102 | A 10 S 94 | A 24 S 17 |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   | A 24 S 12 | A 24 S 20 |
+ W - D  | A 24 S127 | A  8 S124 | A  8 S102 |   empty   | A 10 S 92 | A 24 S 16 |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   | A 24 S 12 |   empty   |
+ W - E  | A 24 S127 |   empty   |   empty   |   empty   | A 10 S 92 | A 24 S 16 |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   |   empty   | A 24 S 12 |   empty   |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_5_1.json
+------- |  room  1  |
+ M - A  |   empty   |
+ M - B  | A 26 S 45 |
+ M - C  | A 26 S 45 |
+ M - D  |   empty   |
+ M - E  |   empty   |
+ T - A  | A 26 S 44 |
+ T - B  | A 26 S 44 |
+ T - C  | A 26 S 44 |
+ T - D  | A 26 S 44 |
+ T - E  | A 26 S 43 |
+ W - A  | A 26 S 43 |
+ W - B  | A 26 S 43 |
+ W - C  | A 26 S 43 |
+ W - D  | A 26 S 43 |
+ W - E  | A 26 S 43 |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_5_3.json
+------- |  room 13  |  room 14  |  room 15  |  room 16  |  room 17  |  room 18  |  room 19  |  room 20  |  room 21  |  room 22  |  room 23  |  room 24  |
+ M - A  | A  6 S 64 | A  1 S 35 | A  6 S 11 |   empty   | A  1 S 36 |   empty   |   empty   |   empty   | A  3 S 63 |   empty   |   empty   |   empty   |
+ M - B  | A  6 S 64 | A  1 S 35 | A  6 S 11 |   empty   | A 15 S111 |   empty   |   empty   |   empty   | A  1 S 27 |   empty   | A  3 S 56 | A  3 S 53 |
+ M - C  | A  6 S 64 | A  1 S 35 | A  6 S 11 | A  3 S  8 | A 15 S111 |   empty   |   empty   | A 11 S 95 | A  1 S 27 |   empty   | A  3 S 56 | A  3 S 53 |
+ M - D  | A  6 S 64 | A  1 S 35 | A  6 S 11 | A  6 S123 | A 15 S111 |   empty   |   empty   | A 11 S 95 | A  1 S 27 | A 15 S113 | A  3 S 56 | A  3 S 53 |
+ M - E  | A  6 S 64 | A  1 S 35 | A  6 S 11 | A  6 S123 | A 15 S111 |   empty   | A  1 S 40 | A 11 S 95 | A  1 S 27 | A 15 S113 | A  1 S117 | A  3 S 53 |
+ T - A  | A 11 S  4 | A  1 S 35 | A  6 S 11 | A  6 S123 | A 15 S111 | A 15 S  7 | A  1 S 40 | A 11 S 95 | A  1 S 27 | A  6 S 26 | A  3 S 56 |   empty   |
+ T - B  | A 11 S128 | A  1 S 35 | A  6 S 11 | A  6 S123 | A 15 S111 | A 15 S  7 | A  1 S 40 | A 11 S 95 | A  3 S 54 | A  6 S 26 | A  3 S 56 | A  3 S 55 |
+ T - C  | A 11 S128 | A  1 S 35 | A  6 S 11 | A  6 S123 | A 15 S111 | A 15 S  7 | A  1 S 40 | A 11 S 95 | A  3 S 54 | A  6 S 26 | A  3 S 56 | A  3 S 55 |
+ T - D  | A 11 S128 | A  1 S 35 | A  6 S 11 | A  6 S123 | A 15 S111 | A 15 S  7 | A  1 S 40 |   empty   | A  3 S 54 | A  6 S 26 | A  1 S117 | A  3 S 55 |
+ T - E  | A 11 S128 | A  1 S 35 | A  6 S 11 | A  6 S123 | A 15 S111 | A 15 S  7 |   empty   | A  6 S 10 | A  3 S 54 | A  6 S 26 | A  1 S117 | A  3 S 55 |
+ W - A  | A 11 S128 |   empty   | A  6 S 11 | A  6 S123 | A 15 S111 | A  1 S 65 | A 11 S 96 | A  6 S 10 | A  3 S 54 | A  6 S 26 | A  1 S117 | A  3 S 55 |
+ W - B  | A 11 S128 | A 15 S110 | A  6 S 11 | A  6 S123 | A 15 S111 | A  1 S 65 | A 11 S 96 | A  6 S 10 | A  1 S 48 | A  6 S 26 |   empty   | A 14 S 47 |
+ W - C  | A 11 S128 | A 15 S110 | A  3 S 52 | A  6 S123 | A 15 S111 | A  1 S 65 | A 11 S 96 | A  6 S 10 | A  1 S 48 | A  6 S 26 | A  3 S 51 | A 14 S 47 |
+ W - D  |   empty   | A 15 S110 | A  3 S 52 | A  6 S123 |   empty   | A  1 S 65 | A 11 S 96 | A  3 S 62 | A  1 S 48 | A  6 S 26 | A  3 S 51 | A 14 S 47 |
+ W - E  |   empty   |   empty   | A  3 S 52 | A  6 S123 |   empty   |   empty   |   empty   | A  3 S 62 |   empty   | A 11 S114 | A  3 S 51 |   empty   |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_5_6.json
+------- |  room 52  |  room 53  |  room 54  |  room 55  |  room 56  |  room 57  |
+ M - A  | A 13 S129 | A 13 S118 |   empty   |   empty   |   empty   |   empty   |
+ M - B  | A 13 S129 | A 13 S118 |   empty   |   empty   |   empty   |   empty   |
+ M - C  | A 13 S130 | A 13 S118 |   empty   |   empty   |   empty   |   empty   |
+ M - D  | A 13 S126 | A 13 S119 |   empty   |   empty   |   empty   |   empty   |
+ M - E  | A 13 S126 | A 13 S119 |   empty   |   empty   |   empty   |   empty   |
+ T - A  |   empty   | A 13 S119 |   empty   |   empty   |   empty   |   empty   |
+ T - B  | A 13 S122 | A 13 S119 |   empty   |   empty   |   empty   |   empty   |
+ T - C  |   empty   | A 13 S119 |   empty   |   empty   |   empty   |   empty   |
+ T - D  |   empty   | A 13 S119 |   empty   |   empty   |   empty   |   empty   |
+ T - E  |   empty   | A 13 S119 |   empty   |   empty   |   empty   |   empty   |
+ W - A  |   empty   | A 13 S119 |   empty   |   empty   |   empty   |   empty   |
+ W - B  |   empty   | A 13 S119 |   empty   |   empty   |   empty   |   empty   |
+ W - C  |   empty   | A 13 S119 |   empty   |   empty   |   empty   |   empty   |
+ W - D  |   empty   | A 13 S119 |   empty   |   empty   |   empty   |   empty   |
+ W - E  |   empty   | A 13 S119 |   empty   |   empty   |   empty   |   empty   |
+/home/umons/math/arosati/mip-pyomo-glpk/pyomo/output/mip_5_2.json
+------- |  room  2  |  room  3  |  room  4  |  room  5  |  room  6  |  room  7  |  room  8  |  room  9  |  room 10  |  room 11  |  room 12  |
+ M - A  | A  7 S 29 |   empty   | A  4 S 86 | A  4 S 99 |   empty   |   empty   | A 22 S 68 | A 27 S 25 |   empty   |   empty   | A  7 S 41 |
+ M - B  | A  2 S 37 |   empty   | A  4 S 86 | A  4 S 99 | A 27 S 24 | A  7 S100 | A 22 S 68 | A 27 S 25 | A 22 S 75 | A  2 S 38 | A  7 S 41 |
+ M - C  | A  2 S 37 | A  7 S 34 | A  4 S 86 | A  4 S 99 | A 27 S 24 | A  7 S100 | A 22 S 68 | A 27 S 25 | A 22 S 75 | A  2 S 38 |   empty   |
+ M - D  |   empty   | A  4 S106 | A  7 S 33 | A  4 S 99 | A 27 S 24 | A 22 S  2 | A  7 S 49 | A 27 S 25 | A 22 S 75 |   empty   | A  7 S 39 |
+ M - E  | A 22 S 70 | A  4 S106 | A  7 S 33 | A  4 S 99 | A 27 S 24 | A 22 S  2 | A 22 S 74 | A 27 S 25 | A 22 S 75 |   empty   |   empty   |
+ T - A  | A 22 S 70 | A  4 S106 |   empty   |   empty   | A 27 S 24 | A 22 S  2 | A 22 S 74 | A 27 S 25 | A 22 S 75 |   empty   | A  4 S 87 |
+ T - B  | A 22 S 70 | A  4 S106 | A 22 S 73 | A  7 S 30 | A 27 S 24 | A 22 S  2 | A 22 S 74 | A 27 S 25 | A 22 S 75 | A  4 S108 | A  4 S 87 |
+ T - C  | A 22 S 70 | A  4 S106 | A 22 S 73 | A  7 S 30 | A 27 S 24 | A 22 S  2 | A 22 S 74 | A 27 S 25 | A 22 S 75 | A  4 S108 | A  4 S 87 |
+ T - D  | A 22 S 70 | A  4 S106 | A 22 S 73 | A  7 S 30 | A 22 S 71 | A 22 S  2 | A  4 S107 | A 22 S 69 | A 22 S 75 | A  4 S108 | A  4 S 87 |
+ T - E  | A 22 S 70 | A  4 S106 | A 22 S 73 | A  7 S 30 | A 22 S 71 | A 22 S  2 | A  4 S107 | A 22 S 69 | A 22 S 75 |   empty   | A  4 S 87 |
+ W - A  | A 12 S 42 | A  4 S106 | A 22 S 73 | A  7 S 30 | A 22 S 71 | A 22 S  2 | A  4 S107 | A 22 S 69 | A 22 S 75 |   empty   | A  4 S 87 |
+ W - B  | A 12 S 42 | A  4 S106 | A 22 S 73 | A  7 S 30 | A 22 S 71 | A 22 S  2 | A  4 S107 | A 22 S 69 | A 22 S 75 | A  7 S 32 | A  4 S 87 |
+ W - C  | A 12 S 42 |   empty   | A 22 S 73 |   empty   | A 22 S 71 | A 12 S 46 | A  4 S107 | A 22 S 69 | A 22 S 75 | A  7 S 32 | A  4 S 87 |
+ W - D  | A 12 S 98 | A  4 S109 | A  7 S 28 |   empty   | A 22 S 71 | A 12 S 46 |   empty   | A 22 S 69 |   empty   | A  7 S 31 |   empty   |
+ W - E  | A 12 S 98 | A 12 S  9 | A  7 S 28 |   empty   |   empty   | A 12 S 46 | A  4 S  6 | A 22 S 69 |   empty   | A  7 S 31 |   empty   |

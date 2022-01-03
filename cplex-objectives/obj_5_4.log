@@ -1,0 +1,24 @@
+
+Problem: 
+- Name: tmp99ylcq4t
+  Lower bound: 122.41508300000001
+  Upper bound: 128.168723
+  Number of objectives: 1
+  Number of constraints: 2079
+  Number of variables: 5356
+  Number of nonzeros: 40561
+  Sense: maximize
+Solver: 
+- Status: ok
+  User time: 14.42
+  Termination condition: optimal
+  Termination message: MIP - Integer optimal, tolerance (0.05/1e-06)\x3a Objective = 1.2241508300e+02
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 5019
+      Number of created subproblems: 5019
+  Error rc: 0
+  Time: 14.480393409729004
+Solution: 
+- number of solutions: 0
+  number of solutions displayed: 0

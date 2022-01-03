@@ -1,0 +1,24 @@
+
+Problem: 
+- Name: tmpo0tzq_wc
+  Lower bound: 55.83976800000001
+  Upper bound: 55.83976800000001
+  Number of objectives: 1
+  Number of constraints: 168
+  Number of variables: 60
+  Number of nonzeros: 471
+  Sense: maximize
+Solver: 
+- Status: ok
+  User time: 0.01
+  Termination condition: optimal
+  Termination message: MIP - Integer optimal solution\x3a Objective = 5.5839768000e+01
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 0
+      Number of created subproblems: 0
+  Error rc: 0
+  Time: 0.021843910217285156
+Solution: 
+- number of solutions: 0
+  number of solutions displayed: 0

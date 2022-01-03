@@ -1,0 +1,20 @@
+
+Problem: 
+- Name: tmp3qsmb9h5
+  Lower bound: 134.46547900000002
+  Upper bound: 143.54602284
+  Number of objectives: 1
+  Number of constraints: 3001
+  Number of variables: 6308
+  Number of nonzeros: 48616
+  Sense: maximize
+Solver: 
+- Status: ok
+  User time: 905.54
+  Termination condition: maxTimeLimit
+  Termination message: MIP - Time limit exceeded, integer feasible\x3a Objective = 1.3446547900e+02
+  Error rc: 0
+  Time: 907.248797416687
+Solution: 
+- number of solutions: 0
+  number of solutions displayed: 0
